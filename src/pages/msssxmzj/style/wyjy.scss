@@ -1,0 +1,52 @@
+.wyjy {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  //   padding: 30px;
+
+  .line {
+    margin: 30px 0;
+    padding-left: 16px;
+
+    .col {
+      color: #FF3333;
+    }
+  }
+
+  .bg-line {
+    height: 16px;
+    background-color: #f5f5f5;
+    margin: 10px 0;
+  }
+
+  .submit {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+    .button {
+      width: 690px;
+      height: 98px;
+      border-radius: 10px;
+    }
+  }
+
+  .back-btn {
+    width: 100%;
+    height: 98px;
+    line-height: 98px;
+    background: #379DEA;
+    border-radius: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0;
+  }
+}
+
+/deep/ .van-cell::after {
+  border: 2px solid #ebedf0;
+}

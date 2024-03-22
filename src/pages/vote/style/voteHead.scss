@@ -1,0 +1,61 @@
+.voteHead {
+  background: #ffffff;
+  .inform {
+    height:42px;
+    padding-left: 20px;
+    background:rgba(39,101,176,1);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size:28px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    .icon {
+      width:42px;
+      height:42px;
+      display: flex;
+      align-items: center;
+      img {
+        width:25px;
+        height:22px;
+      }
+    }
+    .inform-title {
+      flex: 1;
+      font-size:28px;
+      font-weight:bold;
+      color:rgba(255,255,255,1);
+      overflow-x: scroll;
+      overflow-y: hidden;
+      .title {
+        position: relative;
+        left: 0;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap
+      }
+      .title::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .inform-title::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .headImage {
+    width:750px;
+    height:298px;
+    img {
+      width:750px;
+      height:298px; 
+    }
+  }
+  .headImage2 {
+    width:750px;
+    height:200px;
+    img {
+      width:750px;
+      height:200px; 
+    }
+  }
+}

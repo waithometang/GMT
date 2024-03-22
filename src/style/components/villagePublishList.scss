@@ -1,0 +1,98 @@
+.content {
+  top: 210px;
+  bottom: 0;
+  background: #ffffff;
+  .auto {
+    height: 174px;
+    width: 699px;
+    margin: 0 28px 0 23px;
+    border-bottom: 1px dotted  #cccccc;
+    .fl {
+      padding-top: 20px;
+      width: 487px;
+      float: left;
+      .title {
+        height: 90px;
+        overflow: hidden;
+        text-overflow: -o-ellipsis-lastline;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        line-height: 45px;
+        span {
+          width: 150px;
+          height: 50px;
+          background: rgba(253, 233, 218, 1);
+          border-radius: 10px;
+          font-size: 28px;
+          font-family: PingFang-SC-Medium;
+          font-weight: 500;
+          color: rgba(255, 143, 3, 1);
+          line-height: 50px;
+          text-align: center;
+        }
+        font-size: 28px;
+        font-family: PingFang-SC-Heavy;
+        font-weight: 800;
+        color: rgba(51, 51, 51, 1);
+      }
+      .timeNumber {
+        display: flex;
+        height: 61px;
+        .time {
+          width: 50%;
+          display: flex;
+          line-height: 61px;
+          font-size: 20px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          .icon {
+            width: 26px;
+            margin-right: 10px;
+            img {
+              height: 26px;
+              width: 26px;
+              margin-top: 17px;
+            }
+          }
+        }
+        .number {
+          width: 50%;
+          display: flex;
+          line-height: 61px;
+          font-size: 20px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          .icon {
+            width: 26px;
+            margin-right: 10px;
+            img {
+              height: 26px;
+              width: 26px;
+              margin-top: 17px;
+            }
+          }
+        }
+      }
+    }
+    .ft {
+      float: right;
+      width: 174px;
+      height: 134px;
+      margin-top: 20px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .bor{
+    border: none;
+  }
+}

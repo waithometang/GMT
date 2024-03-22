@@ -1,0 +1,93 @@
+.qygs {
+  .top-title {
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #0041A5;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 30px 0;
+    margin: 0 30px;
+  }
+
+  .content-wrapper {
+    background-color: #fff;
+    font-size: 28px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #333333;
+
+    .content-item {
+      padding: 30px;
+
+      .participants {}
+
+      .item {
+        display: flex;
+        justify-content: space-between;
+
+        .left,
+        .right {
+          .common {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .info-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-around;
+        margin-top: 30px;
+
+        .info {
+          margin-right: 6px;
+
+          img {
+            width: 224px;
+            height: 272px;
+            object-fit: cover;
+          }
+
+          .name {
+            margin: 20px 0;
+          }
+
+          .phone {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+
+    }
+
+    .bd-line {
+      height: 12px;
+      background: #F4F4F4;
+    }
+  }
+
+  .no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    font-family: Microsoft YaHei;
+    font-weight: 300;
+    color: rgba(173, 183, 193, 1);
+    margin-top: 350px;
+    text-align: center;
+  }
+
+  .need-list {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+  }
+}

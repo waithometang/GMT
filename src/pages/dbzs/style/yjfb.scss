@@ -1,0 +1,27 @@
+.yjfb {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 500;
+
+  .image-upload {
+    padding: 30px;
+  }
+
+  .submit {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+    .button {
+      width: 690px;
+      height: 98px;
+      border-radius: 10px;
+    }
+  }
+}
+
+/deep/ .van-cell::after {
+  border: 2px solid #ebedf0;
+  left: 32px;
+  right: 32px;
+}

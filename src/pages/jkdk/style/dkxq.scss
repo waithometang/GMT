@@ -1,0 +1,27 @@
+.dkxq {
+  background: #EFEFEF;
+  padding: 23px 30px 30px 30px;
+  .diamonds {
+    background:rgba(255,255,255,1);
+    border-radius:16px;
+    padding: 0 30px;
+    margin-bottom: 15px;
+    .diamonds-title {
+      padding: 31px 0;
+      font-size:34px;
+      font-weight:bold;
+      color:rgba(25,25,25,1);
+      border-bottom: 1px solid #E5E5E5;
+    }
+    .diamonds-name {
+      padding: 37px 0;
+      font-size:28px;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+      border-bottom: 1px solid #E5E5E5;
+    }
+    .diamonds-name:last-child {
+      border: none;
+    }
+  }
+}

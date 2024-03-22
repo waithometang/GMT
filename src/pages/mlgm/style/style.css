@@ -1,0 +1,61 @@
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content .upload {
+  padding: 4px 10px;
+  height: 40px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 212px;
+  height: 212px;
+  background: url("../images/upvideo.png") no-repeat;
+  background-size: 100% 100%;
+  background-color: #fff;
+}
+
+.content .upload input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  width: 212px;
+  height: 212px;
+}
+
+.content .hide_btn {
+  display: none;
+}
+
+.content video {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.content .video {
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.content .video > img {
+  pointer-events: auto;
+  content: "";
+  width: 44px;
+  height: 44px;
+  content: '';
+  background: url("/static/img_close.png");
+  background-size: cover;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: -22px;
+  right: -22px;
+}

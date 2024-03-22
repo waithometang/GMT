@@ -1,0 +1,100 @@
+.viewMore{
+  .hread_content {
+    .hread-title{
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      padding: 15px 0px 15px 28px;
+      border-bottom: 1px solid;
+      border-color: #f4f4f4;
+       div{
+         height: 30px;
+         width: 8px;
+         background: #379dea;
+         border-radius: 5px;
+         margin-right: 22px;
+       }
+       .more{
+        float: right;
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: #999999;
+        width: auto;
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+          img{
+            height: 30px;;
+          }
+       }
+    }
+    .content {
+      height: auto;
+      width: 750px;
+      .list {
+        height: auto;
+        margin: 0px 15px;
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        .list-li {
+          flex: 1;
+          min-width: 180px;
+          max-width: 180px;
+          height: auto;
+          .iconTetile {
+            height: auto;
+            margin: 25px 0;
+            .icon {
+              width: 60px;
+              height: 50px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              .number {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                position: absolute;
+                text-align: center;
+                line-height: 40px;
+                float: right;
+                background: #FF8F03;
+                color: #ffffff;
+                margin-left: 40px;
+                margin-top: -25px;
+                font-size: 22px;
+              }
+              img {
+                height: 100%;
+                width: 100%;
+              }
+            }
+            .icon_action {
+              height: 60px;
+              width: 60px;
+            }
+            .tetile {
+              height: auto;
+              width: 100%;
+              overflow: hidden;
+              text-align: center;
+              font-size: 28px;
+              font-weight: 500;
+              color: rgba(0, 0, 0, 1);
+            }
+          }
+        }
+        .list-li:active{
+          background: #cccccc;
+        }
+        .action {
+          background: #cccccc;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.likeCollect {
+  background: #ffffff;
+  height: 100vh;
+  .tag {
+    height: auto;
+    padding:0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    .tag_li {
+      height: auto;
+      min-width: 80px;
+      background: #EBEFF2;
+      text-align: center;
+      margin: 20px 5px;
+      border-radius: 30px;
+      font-size: 30px;
+      color: #1F2326;
+      span{
+        display: inline-block;
+        height: auto;
+        width: auto;
+        padding: 6px 18px;
+      }
+    }
+    .action {
+      background: #379dea;
+      color: white;
+    }
+  }
+  .lists {
+    position: absolute;
+    min-height: 800px;
+    width: 100%;
+    bottom: 0px;
+    top: 120px;
+  }
+}

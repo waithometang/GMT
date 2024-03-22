@@ -1,0 +1,100 @@
+.villageMailboxParticulars {
+  background: #f4f4f4;
+  .letterContent {
+    background: #ffffff;
+    padding: 0 24px;
+    overflow: hidden;
+    .recipients {
+      margin: 20px 0;
+      height: 50px;
+      font-size: 36px;
+      text-align: left;
+      line-height: 50px;
+      color: rgba(51, 51, 51, 1);
+    }
+    .name {
+      height: 40px;
+      margin-left: 40px;
+      margin-bottom: 20px;
+      text-align: left;
+      line-height: 40px;
+      font-size: 32px;
+      color: rgba(51, 51, 51, 1);
+    }
+    .content {
+      padding-bottom: 10px;
+      min-height: 40px;
+      margin-bottom: 20px;
+      text-align: left;
+      line-height: 40px;
+      font-size: 32px;
+      color: rgba(51, 51, 51, 1);
+    }
+    .nemaTime {
+      text-align: right;
+      font-size: 32px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 1);
+      .tiem {
+        padding: 20px 0;
+      }
+    }
+  }
+  .letterReply {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    letter-spacing: 2px;
+    overflow: hidden;
+    .icontitle {
+      margin-left: 24px;
+      margin-right: 24px;
+      height: 80px;
+      display: flex;
+      font-size: 28px;
+      text-align: left;
+      line-height: 80px;
+      .icon {
+        height: 30px;
+        width: 10px;
+        margin-top: 25px;
+        margin-right: 20px;
+        background: rgba(0, 51, 153, 1);
+      }
+    }
+    .contentss {
+      margin: 0 24px;
+      background: #f4f4f4;
+      .Reply {
+        border-bottom: 1px solid #cccccc;
+
+        padding: 30px 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+        color: rgba(51, 51, 51, 1);
+      }
+      .nameTime {
+        margin: 0 24px;
+        .name {
+          padding: 20px 0;
+          margin-left: 520px;
+          width: 150px;
+          font-size: 32px;
+          color: rgba(51, 51, 51, 1);
+          text-align: center;
+        }
+        .time {
+          padding-bottom: 20px;
+          margin-left: 500px;
+          width: 170px;
+          font-size: 28px;
+          color: rgba(51, 51, 51, 1);
+          overflow: hidden;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

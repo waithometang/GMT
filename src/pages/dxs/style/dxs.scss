@@ -1,0 +1,48 @@
+.dxs {
+    min-height: 100vh;
+  }
+  .dxs_box {
+    background-size: 100% 100%;
+    .list {
+      img{
+        width: 100%;
+      }
+      dl {
+        padding: 46px 0px 46px 26px;
+        margin: 0 45px 36px 45px;
+        background: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        dt {
+          width: 104px;
+          height: 104px;
+          border-radius: 50px;
+          margin: 0;
+          padding: 0;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        dd {
+          margin: 0 0 0 28px;
+          padding: 0;
+          p {
+            margin: 0;
+            padding: 0;
+          }
+          p:nth-child(1) {
+            font-size: 36px;
+            padding-bottom: 16px;
+            color: #555555;
+            font-weight: 700;
+          }
+          p:nth-child(2) {
+            font-size: 24px;
+            color: #555555;
+          }
+        }
+      }
+    }
+  }

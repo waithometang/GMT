@@ -1,0 +1,24 @@
+.container {
+  background-color: #fff;
+  padding: 0 0 28px 0;
+}
+
+// /deep/ .van-grid-item {
+//     width: 50px;
+// }
+
+/deep/ .van-grid-item__text {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+
+/deep/ .van-icon__image {
+  width: 100px;
+  height: 100px;
+}
+
+/deep/ .van-grid-item__content {
+  padding: 14px 0;
+}

@@ -1,0 +1,56 @@
+.brainpowerGridding {
+  padding: 0px;
+  margin: 0px;
+  .hread {
+    height: 355px;
+    width: 750px;
+    background: url("http://gmt.znzwoa.com/MiniAppPicture/PA_banner.png");
+    background-size: 100% 100%;
+  }
+  .PullDownHint {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .main-biao {
+      padding-left: 2px;
+      font-size: 24px;
+      vertical-align: middle;
+      display: inline-table;
+      padding-left: 22px;
+    }
+    .main-biao img {
+      width: 4px;
+      height: 23px;
+      margin-right: 21px;
+    }
+  }
+  .pages {
+    margin-top: 24px;
+    overflow: hidden;
+    zoom: 1;
+    .main-ul {
+      padding: 0;
+      margin: 0;
+      width: 660px;
+      margin-left: 45px;
+      list-style: none;
+      .main-li {
+        float: left;
+        width: 218px;
+        text-align: center;
+        margin-bottom: 50px;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+        p {
+          margin: 0;
+          margin-top: 5px;
+          font-size: 28px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.xsxx{
+	.head {
+		.select {
+			padding: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.select-left {
+				flex: 0 0 auto;
+				font-size:28px;
+				font-weight:500;
+				color:rgba(51,51,51,1);
+			}
+			.select-right {
+				flex: 0 0 auto;
+				font-size:26px;
+				font-weight:500;
+				color:rgba(51,51,51,1);
+				min-width:151px;
+				height:50px;
+				background:#EEEEEE;
+				border-radius:10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				i {
+					display: inline-block;
+					width:28px;
+					height:16px;
+					background:rgba(193,193,193,1);
+					margin-left: 32px;
+					background: url('/static/c@2x.png') no-repeat;
+					background-size: 100% 100%;
+				}
+			}
+		}
+		.info {
+			padding: 0 30px;
+			font-size:26px;
+			font-weight:500;
+			color:rgba(87,87,87,1);
+		}
+	}
+	.middle {
+		position: absolute;
+		top: 144px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		.xsxx-item{
+			display: flex;
+			padding: 26px 0;
+			border-bottom: 1px solid #eeeeee;
+			div{
+				flex: 1;
+				text-align: center;
+			}
+		}
+	}
+}

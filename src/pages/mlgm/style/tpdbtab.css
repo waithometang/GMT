@@ -1,0 +1,33 @@
+.tabs {
+  background-color: #fff;
+}
+
+.tabs .tab_title {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tabs .tab_title .tabitem {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  position: relative;
+}
+
+.tabs .tab_title .tabitem .tabLine {
+  position: absolute;
+  width: 126px;
+  height: 8px;
+  border-radius: 4px;
+  background: #ffd300;
+  bottom: -18px;
+  left: 0px;
+}
+
+.tabs .tab_title .active {
+  font-size: 32px;
+  font-weight: bold;
+}

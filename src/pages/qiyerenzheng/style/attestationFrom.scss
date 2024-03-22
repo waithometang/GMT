@@ -1,0 +1,193 @@
+.attestationFrom {
+  background: rgba(245, 245, 245, 1);
+
+  .listFrom {
+    background: #ffffff;
+    padding: 0 30px;
+    padding-bottom: 30px;
+
+    .listFrom_name {
+      padding: 30px 0;
+      font-size: 28px;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+
+      span {
+        font-weight: normal;
+        font-size: 24px;
+        color: #9d9d9d;
+      }
+    }
+
+    .listFrom_image {
+      height: 200px;
+      background: rgba(255, 255, 255, 1);
+      border: 2px dashed #cccccc;
+      border-radius: 10px;
+
+      .listFrom_image_icon {
+        margin-top: 48px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 68px;
+          height: 53px;
+        }
+      }
+
+      .listFrom_image_name {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+      }
+
+      .listFrom_image_tab {
+        height: 200px;
+
+        .listFrom_image_url {
+          width: 100%;
+          height: 200px;
+        }
+      }
+    }
+
+    .listFrom_input {
+      .listFrom_input_tab {
+        min-height: 110px;
+        border-bottom: 1px solid #cccccc;
+        display: flex;
+        align-items: center;
+
+        .listFrom_input_tab_name {
+          flex: 0 0 auto;
+          min-width: 120px;
+          margin-right: 20px;
+          font-size: 28px;
+          font-weight: bold;
+          color: rgba(51, 51, 51, 1);
+        }
+
+        .listFrom_input_tab_input {
+          flex: 1;
+
+          input {
+            min-height: 110px;
+            width: 100% !important;
+          }
+        }
+
+        .listFrom_input_tab_note {
+          flex: 0 0 auto;
+          font-size: 24px;
+          font-weight: 500;
+          color: rgba(255, 255, 255, 1);
+          padding: 10px 12px;
+          background: rgba(102, 183, 243, 1);
+          border-radius: 10px;
+        }
+
+        .listFrom_input_tab_note:active {
+          background: #cccccc;
+        }
+      }
+    }
+  }
+
+  .listFrommargin {
+    margin-top: 20px;
+  }
+
+  .unbound {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 690px;
+    height: 86px;
+    line-height: 86px;
+    text-align: center;
+    background: #379CEA;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .but {
+    margin: 60px 30px;
+    width: 690px;
+    min-height: 80px;
+    background: rgba(55, 157, 234, 1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(254, 255, 255, 1);
+
+    &.btn {
+      margin-top: 100px;
+      background-color: #fff;
+    }
+  }
+
+  .but:active {
+    background: #cccccc;
+  }
+
+  .affirm {
+    padding: 10px 30px 0 30px;
+    text-align: right;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 146, 254, 1);
+  }
+
+  .btn_wraper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    padding: 54px 28px;
+
+    .btn_code {
+      width: 330px;
+      height: 86px;
+      text-align: center;
+      line-height: 86px;
+      background: #65B7F3;
+      border-radius: 10px;
+      color: #fff;
+    }
+
+    .btn_cancel {
+      width: 330px;
+      height: 86px;
+      text-align: center;
+      line-height: 86px;
+      color: #65B7F3;
+      background: #FFFFFF;
+      border: 1px solid #65B7F3;
+      border-radius: 10px;
+    }
+  }
+
+
+  .remark {
+    padding: 30px;
+    margin-top: 20px;
+    color: rgba(55, 157, 234, 1);
+    font-size: 28px;
+    display: flex;
+
+    .tips {
+      margin-left: 20px;
+    }
+  }
+}

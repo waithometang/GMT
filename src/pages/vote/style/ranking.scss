@@ -1,0 +1,141 @@
+.ranking {
+  padding-bottom: 120px;
+  .tab-list{
+    width:750px;
+    height:86px;
+    background:rgba(255,255,255,1);
+    display: flex;
+    align-items: center;
+    .tab {
+      flex: 1;
+      display: flex;
+      height: 88px;
+      justify-content: center;
+      align-items: center;
+      font-size:32px;
+      font-weight:400;
+      color:rgba(102,102,102,1);
+    }
+    .tab:active {
+      background: #cccccc;
+    }
+    .tan_action {
+      height: 80px;
+      border-bottom: 3px solid #3895FF;
+      color:rgba(54,151,255,1);
+    }
+  }
+  .head {
+    position: relative;
+    width:750px;
+    height:463px;
+    background: url('/static/vote/beijing.png') no-repeat;
+    background-size: 100% 100%;
+    .top-three {
+      position: relative;
+      top: 137px;
+      height: 257px;
+      width: 720px;
+      margin: 0 auto;
+      background: url('/static/vote/hang.png') no-repeat;
+      background-size: 100% 100%;
+      .ranking-lsit {
+        padding-top: 58px;
+        height: 199px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .ranking-lsit-tab {
+          flex: 0 0 215px;
+          .ranking-lsit-tab-name {
+            font-size:24px;
+            font-weight:400;
+            color:rgba(0,0,0,1);
+            text-align: center;
+            margin-top: 90px;
+          }
+          .ranking-lsit-tab-number {
+            text-align: center;
+            font-size:34px;
+            font-weight:400;
+            color:rgba(232,48,48,1);
+          }
+        }
+        .two {
+          flex: 1;
+          .ranking-lsit-tab-name {
+            margin-top: 74px;
+            font-size:28px;
+          }
+          .ranking-lsit-tab-number {
+            font-size:40px;
+          }
+        }
+      }
+    }
+    .tag {
+      position: relative;
+      top: 137px;
+      height: 69px;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:28px;
+      font-weight:bold;
+      color:rgba(255,255,255,1);
+      .icon {
+        flex: 0 0 auto;
+        width:42px;
+        height:42px;
+        display: flex;
+        align-items: center;
+        img {
+          width:25px;
+          height:22px;
+        }
+      }
+      .inform-title {
+        flex: 1;
+        font-size:28px;
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        overflow-x: scroll;
+        overflow-y: hidden;
+        .title {
+          position: relative;
+          left: 0;
+          overflow-x: scroll;
+          overflow-y: hidden;
+          white-space: nowrap
+        }
+        .title::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+  .list-head {
+    display: flex;
+    align-items: center;
+    width:750px;
+    height:80px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 0px 0px rgba(219,215,216,1);
+    .list-head-tab {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:28px;
+      font-weight:400;
+      color:rgba(0,0,0,1);
+      span {
+        color: #336699;
+      }
+    }
+  }
+  .tab-action {
+    background: #EEF8FF;
+  }
+}

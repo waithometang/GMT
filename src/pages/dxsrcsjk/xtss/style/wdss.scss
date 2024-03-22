@@ -1,0 +1,42 @@
+.PartyReport_record {
+  .PartyReport_record_item {
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    margin: 25px 40px;
+    padding-right: 0;
+    display: flex;
+    position: relative;
+
+    .item_font {
+      line-height: 52px;
+
+      p {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+
+        .bold {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .item_shjg {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .wait {
+      color: #898989;
+    }
+
+    .no_reviewed {
+      color: #E66464;
+    }
+
+    .reviewed {
+      color: #3C8AE1;
+    }
+  }
+}

@@ -1,0 +1,223 @@
+.container {
+    padding: 0 0 30px 0;
+    // background-color: #ff0;
+    .search {
+        display: flex;
+        align-items: center;
+        .con {
+            position: absolute;
+            left: 50px;
+            img {
+                width: 28px;
+                height: 28px;
+                vertical-align: middle;
+            }
+        }
+        input {
+            flex: 1;
+            padding: 20px 0;
+            background: rgba(245, 247, 249, 1);
+            border-radius: 34px;
+            padding-left: 64px;
+            &::placeholder {
+                font-size: 28px;
+                font-family: Microsoft YaHei;
+                font-weight: 300;
+                color: rgba(193, 197, 203, 1);
+            }
+        }
+    }
+    .nocontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 28px;
+        font-family: Microsoft YaHei;
+        font-weight: 300;
+        color: rgba(173, 183, 193, 1);
+        position: fixed;
+        width: 100%;
+        height: 800px;
+        // height: calc(100vh);
+        // background-color: #f00;
+        // margin-top: 206px;
+        // margin-left: 174px;
+        img {
+            width: 346px;
+            height: 326px;
+            margin-left: 46px;
+        }
+    }
+    .wrapContent {
+        padding: 0 30px 0px 30px;
+        .wrapItem {
+            margin-top: 20px;
+            // padding-right: 80px;
+            .itemContent {
+                position: relative;
+                border-bottom: 1px solid #e8e8e8;
+                margin-bottom: 30px;
+                .box {
+                    position: relative;
+                    width: 690px;
+                    height: 360px;
+                    .cover {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        // background: rgba(193, 197, 204, 1);
+                        border-radius: 10px;
+                    }
+                    .title {
+                        position: absolute;
+                        // width: 660px;
+                        width: 668px;
+                        bottom: 0;
+                        font-size: 34px;
+                        font-family: Microsoft YaHei;
+                        font-weight: 400;
+                        color: rgba(255, 203, 0, 1);
+                        background: rgba(51, 51, 51, .75);
+                        border-radius: 0px 0px 10px 10px;
+                        padding: 23px 0 23px 22px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    .bar {
+                        position: absolute;
+                        top: 26px;
+                        right: 0;
+                        background: rgba(51, 51, 51, .75);
+                        display: flex;
+                        padding: 27px 27px 12px 27px;
+                        .left {
+                            font-size: 24px;
+                            font-family: Microsoft YaHei;
+                            font-weight: 300;
+                            color: rgba(255, 211, 0, 1);
+                            border-right: 1px solid #FFD300;
+                            padding-right: 22px;
+                            img {
+                                width: 23px;
+                                height: 24px;
+                                margin-right: 6px;
+                            }
+                            .count {
+                                font-size: 28px;
+                                font-family: Microsoft YaHei;
+                                font-weight: bold;
+                                color: rgba(255, 211, 0, 1);
+                                margin-left: 20px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                        }
+                        .right {
+                            font-size: 24px;
+                            font-family: Microsoft YaHei;
+                            font-weight: 300;
+                            color: rgba(255, 211, 0, 1);
+                            margin-left: 26px;
+                            img {
+                                width: 19px;
+                                height: 24px;
+                                margin-right: 7px;
+                            }
+                            .rank {
+                                font-size: 28px;
+                                font-family: Microsoft YaHei;
+                                font-weight: bold;
+                                color: rgba(255, 211, 0, 1);
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+                .tags {
+                    display: flex;
+                    margin-top: 30px;
+                    flex-direction: column;
+                    .tab_box {
+                        display: flex;
+                        flex-wrap: wrap;
+                        // justify-content: flex-start;
+                        align-items: flex-start;
+                        .tag {
+                            display: flex;
+                            .label {
+                                border: 1px solid #e8e8e8;
+                                border-radius: 4px;
+                                font-size: 22px;
+                                font-family: Microsoft YaHei;
+                                font-weight: 300;
+                                color: rgba(51, 51, 51, 1);
+                                padding: 6px 17px 6px 17px;
+                                margin-right: 8px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    .fail,
+                    .success,
+                    .loading {
+                        display: flex;
+                        flex: 1;
+                        justify-content: flex-start;
+                        // align-items: flex-start;
+                        font-size: 24px;
+                        font-family: Microsoft YaHei;
+                        font-weight: 300;
+                        color: rgba(255, 51, 51, 1);
+                        // margin-bottom: 10px;
+                        margin-top: 20px;
+                        margin-bottom: 30px;
+                    }
+                    .success {
+                        color: rgba(51, 51, 51, 1);
+                    }
+                }
+                .grade {
+                    display: flex;
+                    align-items: center;
+                    font-size: 22px;
+                    font-family: Microsoft YaHei;
+                    font-weight: 300;
+                    color: rgba(65, 135, 235, 1);
+                    margin-bottom: 30px;
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 211, 0, 1);
+        box-shadow: -1px -1px 12px 0px rgba(255, 219, 37, 0.4);
+        border-radius: 45px;
+        font-size: 34px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        padding: 28px 0;
+        position: fixed;
+        bottom: 60px;
+        width: 690px;
+        margin-left: 30px;
+        img {
+            width: 36px;
+            height: 36px;
+            margin-right: 22px;
+        }
+    }
+}

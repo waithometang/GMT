@@ -1,0 +1,31 @@
+.container {
+    background-color: #fff;
+    padding-bottom: 28px;
+}
+
+// /deep/ .van-grid-item {
+//     width: 50px;
+// }
+
+/deep/ .van-grid-item__text {
+    font-size: 28px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+/deep/ .van-icon__image {
+    width: 72px;
+    height: 72px;
+}
+
+/deep/ .van-grid-item__content {
+    padding: 14px 0;
+}
+
+/deep/ .van-grid-item:not(:last-child) {
+    flex-basis: 23% !important;
+}
+/deep/ .van-grid-item:last-child {
+    flex-basis: 31% !important;
+}

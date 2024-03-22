@@ -1,0 +1,79 @@
+.voiceAppointment {
+  margin: 0px;
+  padding: 0px;
+  background: #ffff;
+  .title {
+    margin-left: 23px;
+    font-size: 28px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(147, 179, 198, 1);
+    line-height: 54px;
+  }
+  .voicea-fu {
+    width: 750px;
+    margin-top: 80px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 87px;
+    .voicea-frame {
+      user-select: none;
+      height: 400px;
+      width: 400px;
+      border-radius: 100%;
+      background: #71c0ff;
+      display: -webkit-inline-box;
+      text-align: center;
+
+      .voicea-img {
+        pointer-events: none;
+        width: 96px;
+        height: 144px;
+        margin-top: 128px;
+        margin-left: 150px;
+      }
+    }
+    .action {
+      background: #777777;
+    }
+    .istrue {
+      width: 750px;
+      text-align: center;
+      margin-top: 95px;
+      .preview {
+        display: inline-table;
+        width: 400px;
+        height: 80px;
+        background: rgba(255, 141, 48, 1);
+        border-radius: 10px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 28px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: rgba(254, 254, 254, 1);
+        .preview-img {
+          width: 35px;
+          height: 25px;
+        }
+      }
+    }
+  }
+  .action {
+    width: 750px;
+    margin-top: 50px;
+    .but-action {
+      width: 706px;
+      height: 98px;
+      background: rgba(24, 130, 214, 1);
+      border-radius: 10px;
+      margin-left: 22px;
+      text-align: center;
+      line-height: 98px;
+      font-size: 28px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(254, 254, 254, 1);
+    }
+  }
+}

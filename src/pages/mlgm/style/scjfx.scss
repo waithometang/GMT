@@ -1,0 +1,63 @@
+.container {
+    padding: 30px;
+    .tips {
+        font-size: 22px;
+        font-family: Microsoft YaHei;
+        font-weight: 300;
+        color: rgba(65, 135, 235, 1);
+        line-height: 40px;
+    }
+    .uploadImg {
+        margin-top: 30px;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        padding: 197px 72px 60px 72px;
+        .submit {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            background: rgba(255, 211, 0, 1);
+            border-radius: 45px;
+            padding: 28px 0;
+        }
+    }
+    .back {
+        background: rgba(255, 212, 0, 1);
+        border-radius: 45px;
+        font-size: 34px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(52, 52, 52, 1);
+        padding: 28px 0;
+        position: fixed;
+        bottom: 100px;
+        width: 690px;
+        text-align: center;
+    }
+}
+
+/deep/ .van-uploader__preview-image {
+    width: 212px;
+    height: 212px;
+}
+
+/deep/ .van-uploader__preview {
+    position: relative;
+    margin: 0 27px 28px 0;
+    cursor: pointer
+}
+
+/deep/ .van-uploader__preview:nth-child(3n) {
+    margin-right: 0;
+}
+
+/deep/ .van-uploader__upload {
+    width: 212px;
+    height: 212px;
+}
+
+/deep/ .imgs {
+    object-fit: cover;
+}

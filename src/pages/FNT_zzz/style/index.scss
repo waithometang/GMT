@@ -1,0 +1,36 @@
+.serch_organization{
+  overflow: hidden;
+  background: #ffffff;
+  .hread_img{
+    width:750px;
+    height:240px;
+    background:rgba(249,197,155,1);
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .button-tab{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    padding:20px 30px 0 30px;
+    .button-nor{
+      width: 334px;
+      height: 60px;
+      border: 2px solid rgba(254, 171, 99, 1);
+      text-align: center;
+      line-height: 60px;
+      font-weight: 400;
+      color: rgba(254,171,99,1);
+      border-radius: 6px;
+      &.button-nor-margin{
+        margin-right: 22px;
+      }
+      &.on{
+        background-color: rgba(254,171,99,1);
+        color: #FFFFFF;
+      }
+    }
+  }
+}

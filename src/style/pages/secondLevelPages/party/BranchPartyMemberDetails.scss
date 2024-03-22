@@ -1,0 +1,114 @@
+.main{
+  margin: 0px;
+  padding: 0px;
+  .hread{
+    width:750px;
+    height:206px;
+    background: url('/images/party/party-banner-02.jpg');
+    background-size: 100% 100%;
+    display:flex;
+    .hread-img{
+      width: 120px;
+      height: 160px;
+      margin-top: 22px;
+      margin-left: 24px;
+    }
+    .hread-font{
+      margin-left: 22px;
+      float:right;
+      width: 300px;
+      height: 200px;;
+      margin-top: 30px;
+      .font-name{
+        font-size:36px;
+        font-family:MicrosoftYaHei-Bold;
+        font-weight:bold;
+        color:rgba(51,0,0,1);
+        width: 556px;
+        display: block;
+        .font-index{
+          font-size:28px;
+          font-family:MicrosoftYaHei;
+          font-weight:400;
+          float: right;
+          color:rgba(153,0,0,1);  
+        }
+      }
+      .font-time{
+        height:23px;
+        font-size:24px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(129,103,90,1);
+        margin-top: 27px;
+        margin-bottom: 23px;
+      }
+      .font-evaluation{
+        width:456px;
+        height:25px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:24px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(102,51,51,1);
+      }
+    }
+  }
+  .main-li{
+    width: 750px;
+    height: 180px;
+    display: flex;
+    .main-img{
+      width:180px;
+      height:130px;
+      margin-top: 25px;
+      margin-left: 22px;
+    }
+    .main-font{
+      margin-top: 25px;
+      margin-left: 22px;
+      .font-matter{
+        font-size:28px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        .font-name-color{
+          color: #FF6633;
+        }
+      }
+      .font-details{
+        width:496px;
+        font-size:24px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+        white-space: nowrap;  
+         text-overflow:ellipsis; 
+         overflow:hidden;
+         margin-top: 15px;
+          margin-bottom:15px;
+      }
+      .font-details-time{
+        font-size:24px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 486px;
+        display: block;
+          .font-like{
+            font-size:24px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:rgba(153,153,153,1);
+            float: right;
+            .like{
+              color: #339966;
+            }
+          }
+      }
+  }
+  }
+}

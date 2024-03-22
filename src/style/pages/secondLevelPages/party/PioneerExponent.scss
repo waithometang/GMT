@@ -1,0 +1,112 @@
+.PioneerExponent{
+  background: #FFFFFF;
+  .PullDownHint {
+    .ContentIcon {
+      width: 100%;
+      height: 50px;
+      background: #f4f4f4;
+      display: flex;
+      .Icon {
+        float: left;
+        width: 4px;
+        height: 23px;
+        background: rgba(24, 130, 214, 1);
+        border-radius: 1px;
+        margin: 14px 16px 13px 22px;
+      }
+      .content {
+        height: 50px;
+        font-size: 24px;
+        font-family: MicrosoftYaHei;
+        color: rgba(101, 101, 101, 1);
+        line-height: 50px;
+        text-align: left;
+      }
+    }
+  }
+  .content{
+    position: relative;
+    .icon-title{
+      height: 179;
+      width: 706px;
+      margin: 0 27px 0 17px;
+      border-bottom: 1px solid #F0F2F6;
+      display: flex;
+      .icon-index{
+        float: left;
+        height: 179px;
+        width: auto;
+        display: flex;
+        .index{
+          float: left;
+          width:70px;
+          height:25px;
+          margin: 78px 31px 76px 7px;
+          font-size:32px;
+          font-family:MicrosoftYaHei;
+          color:rgba(51,51,51,1);
+          line-height:25px;
+          text-align: center;
+            img{
+              width: 40px;
+              height: 50px;
+            }
+        }
+        .icon{
+          width:132px;
+          height:132px;
+          margin: 24px 0 23px 0;
+          img{
+            width:132px;
+            height:132px;
+            border-radius:50%;
+          }
+        }
+      }
+      .name-Exponent{
+        height: 179px;
+        width: 100%;
+        margin-left: 22px;
+        .name{
+          width:200px;
+          height:27px;
+          margin: 27px 0 30px 0;
+          font-size:28px;
+          font-family:MicrosoftYaHei;
+          font-weight:400;
+          color:rgba(51,51,51,1);
+          line-height:27px;
+        }
+        .slogan{
+          min-width:464px;
+          height:25px;
+          margin-bottom: 23px;
+          font-size:24px;
+          font-family:MicrosoftYaHei;
+          font-weight:400;
+          color:rgba(102,102,102,1);
+          line-height:25px;
+        }
+        .Exponent{
+          ul{
+            list-style: none;
+            height: 24px;
+            width: 450px;
+            margin: 0px 46px 23px 0px;
+            padding: 0px;
+            li{
+              float: left;
+              width: 150px;
+              font-size: 24px;
+              line-height: 25px;
+              color: #999999;
+              span{
+                color: #339966;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

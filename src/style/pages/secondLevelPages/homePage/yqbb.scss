@@ -1,0 +1,19 @@
+.yqbb{
+    .tabs{
+        width: 100%;
+        display: flex;
+        .tab{
+            display: inline-block;
+            flex: 1;
+            text-align: center;
+            color:#000;
+            height: 92px;
+            line-height: 92px;
+            font-size: 30px;
+        }
+        .active{
+            color:#fff;
+            background-color: #1164B8;
+        }
+    }
+}

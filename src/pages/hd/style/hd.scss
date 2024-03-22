@@ -1,0 +1,36 @@
+.hd {
+  background: #ffffff;
+  .page-haed {
+    height: 300px;
+    position: relative;
+    background: url('/static/newEditionIndex/banner3.png') no-repeat;
+    background-size: 100% 100%;
+    .tag-list {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 10px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .tag {
+        font-size:30px;
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        padding-bottom: 10px;
+        opacity: 1;
+      }
+      .tag-action {
+        border-bottom: 4px solid #ffffff;
+      }
+    }
+  }
+  .content {
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    top: 300px;
+  }
+}

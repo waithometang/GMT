@@ -1,0 +1,226 @@
+.container {
+  background: #F4F4F4;
+
+  .header-wrapper {
+    margin-bottom: 12px;
+    background: #fff;
+
+    .banner-img {
+      img {
+        width: 100%;
+      }
+    }
+
+    .nav-btn {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 33px;
+
+      .btn-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+          width: 90px;
+        }
+
+        .title {
+          font-size: 30px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #333333;
+        }
+      }
+    }
+
+    .img-link {
+      padding: 20px 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .content-wrapper {
+    background: #fff;
+    // padding: 26px 30px 35px 30px;
+    // padding: 34px 30px;
+
+    .content-top {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+
+      .left {
+        font-size: 32px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #333333;
+        display: flex;
+        align-items: center;
+
+        i {
+          display: inline-block;
+          width: 8px;
+          height: 32px;
+          background: #0041A5;
+          margin-right: 14px;
+        }
+      }
+
+      .right {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #898989;
+      }
+    }
+
+    .tips {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #898989;
+      height: 400px;
+
+      img {
+        width: 84px;
+        margin-bottom: 33px;
+      }
+    }
+
+    .content {
+      .group-name {
+        padding: 15px 30px;
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #333333;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        // justify-content: space-around;
+        // justify-content: space-between;
+        background-color: #fff;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .left,
+        .right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          flex: 1;
+
+          img {
+            width: 68px;
+            margin-bottom: 10px;
+          }
+
+          .team-name {
+            font-size: 28px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: #333333;
+          }
+        }
+
+        .middle {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .score {
+            margin-bottom: 15px;
+            font-size: 38px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: #333333;
+          }
+
+          .not-start {
+            font-size: 30px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: #898989;
+          }
+
+          .time {
+            font-size: 22px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #898989;
+          }
+        }
+      }
+    }
+
+    .content-img {
+      width: 176px;
+      margin-bottom: 28px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .item-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .item-list {
+        // flex: 50%;
+        width: 336px;
+
+        margin-bottom: 30px;
+
+        .img-banner {
+          //   object-fit: cover;
+          width: 336px;
+          height: 200px;
+        }
+
+        .info {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+
+          .img-icon {
+            width: 42px;
+          }
+
+          .team-name {
+            font-size: 30px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            margin-left: 8px;
+          }
+
+          .address {
+            display: flex;
+            flex: 1;
+            justify-content: flex-end;
+            font-size: 24px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #898989;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.Record_ewm{
+  padding: 30px;
+  background: #eee;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: scroll;
+  .record_pages{
+    margin-top: 10px;
+    &:first-child{
+      margin: 0;
+    }
+    .record_hread{
+      display: flex;
+      align-items: center;
+      .hread_icon{
+        height: 20px;
+        width: 20px;
+        background-color: #3296EA;
+      }
+      .hread_time{
+        font-size: 28px;
+        color: #333333;
+        margin-left: 20px;
+
+      }
+      .hread_xq{
+        font-size: 24px;
+        color: #cccccc;
+        margin-left: auto;
+      }
+    }
+    .record_item{
+      border-left: 1px #cccccc solid;
+      padding: 10px 0 10px 30px;
+      margin-left: 10px;
+      .record_dg{
+        color: #cccccc;
+        font-size: 28px;
+      }
+      .record_list{
+        background: #ffffff;
+        display: flex;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+        &:first-child{
+          margin-top: 0;
+        }
+        .list{
+          display: flex;
+          align-items: center;
+          &:last-child{
+            margin-left: auto;
+          }
+          img{
+            width: 25px;
+            height: 25px;
+            margin-right: 20px;
+          }
+          span{
+            font-size: 28px;
+            color: #333333;
+          }
+        }
+      }
+      .details_list{
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+        .list_hread{
+          font-size: 28px;
+          color: #333333;
+          display: flex;
+          align-items: center;
+          img{
+            height: 25px;
+            width: 25px;
+            margin-right: 30px;
+          }
+          span{
+            margin-left: auto;
+            color: #3296EA;;
+          }
+        }
+        p{
+          margin: 10px 0 0 0;
+          font-size: 28px;
+          color: #cccccc;
+        }
+      }
+      
+    }
+  }
+}

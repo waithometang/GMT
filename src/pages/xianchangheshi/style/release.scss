@@ -1,0 +1,118 @@
+.release {
+  background:rgba(242,242,242,1);
+  .head {
+    background: #ffffff;
+    margin-bottom: 10px;
+    .head_select {
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      .select_name {
+        flex: 0 0 auto;
+        font-size:30px;
+        font-weight:500;
+        color:rgba(74,74,74,1);
+      }
+      .select_tab {
+        margin-left: 200px;
+        flex: 1;
+      }
+    }
+  }
+  .content {
+    background: #ffffff;
+    padding: 0 30px;
+    .input_tab {
+      display: flex;
+      padding: 30px 0;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(231,231,231,1);
+      .tab_name{
+        flex: 0 0 auto;
+        margin-right: 20px;
+        font-size:30px;
+        font-weight:500;
+        color:rgba(74,74,74,1);
+      }
+      .tab_input {
+        flex: 1;
+        input{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .tab_select {
+        flex: 0 0 auto;
+        margin-left: 20px;
+        width:18px;
+        height:33px;
+        display: flex;
+        align-items: center;
+        img{
+          width:18px;
+          height:33px;
+        }
+      }
+    }
+    .textarea_tab {
+      padding: 30px 0;
+      height: 200px;
+      textarea{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .textarea_tab_numbers {
+      font-size:26px;
+      font-weight:400;
+      color:rgba(40,40,40,1);
+      text-align: right;
+      margin-bottom: 10px;
+    }
+    .images_tab {
+      .images_tab_name {
+        font-size:24px;
+        font-weight:400;
+        color:rgba(74,74,74,1);
+        margin-bottom: 12px;
+      }
+      .images_list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        .images_list_tab{
+          float: left;
+          width: 25%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 20px;
+          img{
+            width:150px;
+            height:150px;
+          }
+        }
+      }
+    }
+    .release_but {
+      width:613px;
+      background:rgba(24,148,238,1);
+      border-radius:10px;
+      margin: 50px auto 0 auto;
+      font-size:30px;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+      padding: 20px 0;
+      text-align: center;
+    }
+  }
+  .accomplish {
+    text-align: right;
+    padding: 29px;
+    font-size:36px;
+    font-weight:bold;
+    color:rgba(0,146,254,1);
+  }
+}

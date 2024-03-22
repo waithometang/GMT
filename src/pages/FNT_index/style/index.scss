@@ -1,0 +1,82 @@
+.main {
+  overflow: hidden;
+  .content {
+    .hread {
+      overflow: hidden;
+      padding: 15px 30px 30px 30px;
+      padding-top: 15px;
+      background: #ffffff;
+      .swiImgs {
+        height:260px;
+        img{
+          width:690px;
+          height:260px;
+          border-radius:20px;
+          pointer-events: all;
+        }
+      }
+    }
+    .main_function {
+      .tab_list {
+        padding: 30px;
+        .list{
+          .tab {
+            position: relative;
+            float: left;
+            width: 220px;
+            height: 120px;
+            margin: 0 8px 8px 0;
+            img {
+              width: 220px;
+              height: 120px;
+            }
+            &:nth-child(3n) {
+              margin-right: 0;
+            }
+            .number {
+              position: absolute;
+              top: -10px;
+              right: -10px;
+              width:52px;
+              height:30px;
+              background:rgba(255,0,0,1);
+              border-radius:15px 15px 15px 0px;
+              font-size:26px;
+              font-weight:500;
+              color:rgba(255,255,255,1);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+    .main_server {
+      background: #ffffff;
+      padding-top: 20px;
+    }
+    .main_title {
+      display: flex;
+      align-items: center;
+      height: 40px;
+      padding: 0 30px;
+      img{
+        height: 40px;
+        border-radius: 6px;
+      }
+      span {
+        margin-left: auto;
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(102, 102, 102, 1);
+        display: flex;
+        align-items: center;
+        img{
+          width:25px;
+          height:13px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.protocol {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+  overflow-y: scroll;
+  padding: 54px 15px 52px 15px;
+}
+
+.protocol .header {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 36px;
+  font-family: PingFang-SC-Bold;
+  color: #333333;
+}
+
+.protocol .date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+  margin-bottom: 62px;
+  border-bottom: 1px solid #CBCBCB;
+  padding-bottom: 36px;
+  font-size: 24px;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+
+.protocol .content {
+  font-size: 28px;
+  color: #333;
+  line-height: 48px;
+  text-indent: 7.667vw;
+  font-family: PingFang-SC-Medium;
+}
+
+.protocol .content .title {
+  font-weight: bold;
+  font-family: PingFang-SC-Bold;
+}

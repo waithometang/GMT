@@ -1,0 +1,185 @@
+.container {
+  background-color: #F6F6F6;
+}
+
+.container .wrapItem {
+  background-color: #fff;
+  position: relative;
+  margin-top: 14px;
+}
+
+.container .wrapItem .week {
+  padding-top: 28px;
+  padding-left: 30px;
+}
+
+.container .wrapItem .week .count {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #898989;
+}
+
+.container .wrapItem .week .total {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #898989;
+  padding-bottom: 50px;
+}
+
+.container .wrapItem .week .date {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #898989;
+  padding-bottom: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.container .wrapItem .week .date img {
+  width: 21px;
+  height: 12px;
+  margin-left: 30px;
+}
+
+.container .wrapItem .explain {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  width: 196px;
+  background: #ffd300;
+  box-shadow: -1px -1px 12px 0px rgba(255, 219, 37, 0.4);
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.container .wrapItem .explain img {
+  width: 28px;
+  height: 26px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.container .wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  margin-top: -200px;
+  padding-top: 100px;
+  z-index: 9999;
+}
+
+.container .wrapper .block {
+  width: 660px;
+  background: white;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.container .wrapper .block .header {
+  display: flex;
+  justify-content: center;
+  margin-top: -6px;
+}
+
+.container .wrapper .block .header img {
+  width: 310px;
+  height: 64px;
+}
+
+.container .wrapper .block .info {
+  height: 800px;
+  overflow-y: scroll;
+  padding: 0 30px;
+  margin-top: 32px;
+  font-size: 28px;
+  color: #333333;
+  line-height: 48px;
+}
+
+.container .wrapper .block .info .title {
+  position: relative;
+}
+
+.container .wrapper .block .info .like,
+.container .wrapper .block .info .week,
+.container .wrapper .block .info .total {
+  display: block;
+  width: 30px;
+  height: 11px;
+  background: rgba(255, 219, 37, 0.6);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 8px;
+}
+
+.container .wrapper .block .footer {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .wrapper .block .footer .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 90px;
+  background: #ffd300;
+  border-radius: 42px;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+
+.container .prize {
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 80px;
+}
+
+.container .prize img {
+  width: 300px;
+}
+
+.van-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/deep/ .van-tabs__line {
+  background-color: #ffd300;
+  border-radius: 4px;
+  height: 8px;
+}
+
+/deep/ .van-tab--active {
+  font-weight: 600;
+}
+
+/deep/ .happy-scroll-container {
+  height: 800px;
+}
+
+/deep/ .van-dialog__message {
+  padding: 0 10px 10px 10px;
+}

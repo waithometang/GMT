@@ -1,0 +1,130 @@
+.xxbtg {
+  background: #efefef;
+  height: 100vh;
+  overflow: scroll;
+  .head {
+    padding: 30px;
+    background: #ffffff;
+  }
+  .module-tag {
+    background: #ffffff;
+    padding: 0 30px;
+    margin-top: 16px;
+    padding-bottom: 30px;
+    .module-title {
+      padding-top: 10px;
+      font-size:30px;
+      font-weight:bold;
+      text-align: left;
+      color:rgba(16,16,16,1);
+      text-align: left;
+      .middle-title-hint{
+        font-size: 28px;
+        font-weight: 500;
+        color: rgba(137,137,137,1);
+        text-align: left;
+      }
+    }
+    .state {
+      margin-top: 10px;
+      text-align: left;
+      font-size:30px;
+      font-size:28px;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+      span {
+        color: red;
+      }
+      .color1 {
+        color: blue;
+      }
+    }
+    // ul {
+    //   margin-top: 20px;
+    //   li {
+    //     margin-bottom: 10px;
+    //     float: left;
+    //     width: 230px;
+    //     margin-bottom: 10px;
+    //     img {
+    //       width: 171px;
+    //       height: 171px;
+    //       margin: 0 auto;
+    //     }
+    //     .state {
+    //       margin-top: 10px;
+    //       font-size:30px;
+    //       font-weight:bold;
+    //       text-align: left;
+    //       color:rgba(16,16,16,1);
+    //       span {
+    //         color: red;
+    //       }
+    //     }
+    //   }
+    // }
+  }
+  .base{
+    margin: 80px 30px;
+  }
+  .publicUploadPictures {
+    background: #ffffff;
+    margin-top: 30px;
+    .upload-pictures-title {
+      text-align: left;
+      font-size:28px;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+      span {
+        color: red;
+      }
+    }
+    .upload-pictures-list{
+      margin-top: 41px;
+      li {
+        position: relative;
+        margin-bottom: 10px;
+        float: left;
+        width: 230px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        .icon {
+          display: flex;
+          width:171px;
+          height:171px;
+          margin: 0 auto;
+          background: url('/static/ybmimages/加.png') no-repeat;
+          background-size: 100% 100%;
+        }
+        .images {
+          width:171px;
+          height:171px;
+          // margin-top: 0 auto;
+          margin: 0 auto;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .state {
+          margin-top: 10px;
+          font-size:30px;
+          font-weight:bold;
+          text-align: left;
+          color:rgba(16,16,16,1);
+        }
+        .min-icon {
+          display: inline-block;
+          position: absolute;
+          width:44px;
+          height:44px;
+          top: -22px;
+          right: 12px;
+          background: url('/static/ybmimages/x.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.pageInform {
+  background:rgba(249,251,252,1);
+  padding: 14px 0;
+  .page-content {
+    background: #ffffff;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    .page-inform-left {
+      flex: 0 0 auto;
+      margin-right: 30px;
+      i {
+        display: inline-block;
+        width:49px;
+        height:51px;
+        background: url('/static/newEditionIndex/inform.png') no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .page-inform-right {
+      flex: 1;
+      height: 51px;
+      .swiImgs {
+        margin: 0px;
+        height: 51px;
+        z-index: 0;
+        .swname {
+          width: 100%;
+          .inform-right-tab {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .inform-right-name {
+              flex: 1;
+              font-size:26px;
+              font-weight:400;
+              color:rgba(16,16,16,1);
+              overflow: hidden;
+              text-overflow: -o-ellipsis-lastline;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 1;
+              line-clamp: 1;
+              -webkit-box-orient: vertical;
+            }
+            .inform-fight-time {
+              flex: 0 0 auto;
+              margin-left: 10px;
+              font-size:26px;
+              font-weight:400;
+              color:rgba(137,137,137,1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

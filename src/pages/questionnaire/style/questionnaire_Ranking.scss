@@ -1,0 +1,131 @@
+.questionnaire_Ranking{
+  width: 100%;
+  .questionnaire_Ranking_head{
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-between;
+    top: 60px;
+    position: absolute;
+    .head_font{
+      p{
+        margin-bottom: 24px;
+        margin-top: 0;
+        font-size: 32px;
+        color: #ffffff;
+      }
+      .X_size{
+        font-size: 28px;
+      } 
+    }
+    .head_icon{
+      width:111px;
+      height:148px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .hr{
+    height: 36px;
+    width: 100%;
+  }
+  .questionnaire_Ranking_Table{
+    width:690px;
+    // height:967px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 6px 0px 0px rgba(109,164,64,0.21);
+    border-radius:10px;
+    margin:0 30px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 30px;
+    .table_hr{
+      display: flex;
+      padding: 0 30px;
+      height: 80px;
+      align-items: center;
+      font-size:26px;
+      font-weight:500;
+      color:rgba(153,153,153,1);
+      justify-content: space-between;
+      .Pagination{
+        width:220px;
+        height:40px;
+        background:rgba(255,255,255,1);
+        border:1px solid rgba(204, 204, 204, 1);
+        border-radius:4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 16px;
+        .Pagination_icon{
+          width:40px;
+          height:40px;
+          background:rgba(255,255,255,1);
+          border:1px solid rgba(204, 204, 204, 1);
+          border-radius:0px 4px 4px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width:20px;
+            height:11px;
+          }
+        }
+      }
+    }
+    table{
+      width: 100%;
+      font-size:28px;
+      font-weight:500;
+      border-collapse: collapse;
+      color: #333333;
+      tr{
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 70px;
+        border-bottom:1px solid rgba(235,235,235,1);
+        &:first-child{
+          background:rgba(243,255,227,1);
+        }
+        th{
+          color:rgba(128,180,92,1); 
+          font-weight:500;  
+        }
+        td,th{
+          &:first-child{
+            padding-left: 30px;
+          }
+          &:nth-child(2){
+            text-align: left;
+          }
+          &:last-child{
+            padding-right: 30px;
+          }
+          img{
+            width: 34px;
+            height: 44px;
+          }
+        }
+      }
+    }
+    .button_grop{
+      display: flex;
+      padding: 0 30px;
+      margin-top: 36px;
+      justify-content: space-between;
+      div{
+        width:300px;
+        height:64px;
+        background:rgba(128,180,92,1);
+        border-radius:10px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 64px;
+      }
+    }
+  }
+}

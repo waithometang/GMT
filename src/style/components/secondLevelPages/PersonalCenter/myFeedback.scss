@@ -1,0 +1,58 @@
+.myFeedback {
+  position: relative;
+  overflow: hidden;
+  .feedback-content {
+    background: #ffffff;
+    margin-top: 20px;
+    .content-title {
+      height: 200px;
+      padding: 0 20px 0 40px;
+      textarea {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .content-number {
+      font-size:26px;
+      font-weight:400;
+      color:rgba(102,102,102,1);
+      padding: 10px 20px; 
+      display: flex;
+      justify-content: flex-end;
+    }
+    .content-images {
+      padding: 0 20px;
+      .images-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        .list-li {
+          height: 200px;
+          margin: 0 8px;
+          margin-bottom: 20px;
+          width: 200px;
+          img{
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+    .tab {
+      height: 80px;
+      margin: 60px 50px;
+      background: rgba(24, 130, 214, 1);
+      border-radius: 10px;
+      line-height: 80px;
+      text-align: center;
+      font-size: 30px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color:rgba(255,255,255,1);
+    }
+    .tab:actived{
+      background: #cccccc;
+    }
+  }
+}

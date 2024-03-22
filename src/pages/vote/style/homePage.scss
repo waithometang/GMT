@@ -1,0 +1,223 @@
+.homePage {
+  // padding-bottom: 120px;
+  .page-content {
+    background: #F2F2F2;
+    padding-top: 20px;
+    .info {
+      width:691px;
+      height:96px;
+      background:#19AEF6;
+      border-radius:3px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      .info-tab{
+        flex: 1;
+        p{
+          padding: 0;
+          margin: 0;
+          font-size:28px;
+          font-weight:bold;
+          color:rgba(255,255,255,1);
+          text-align: center;
+        }
+      }
+    }
+    .time {
+      height: 81px;
+      width:691px;
+      background: #ffffff;
+      border-radius:3px;
+      margin: 0 auto;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      font-size:28px;
+      font-weight:bold;
+      color:rgba(137,137,137,1);
+      .time-icon {
+        margin-left: 131px;
+        margin-right: 11px;
+        width:28px;
+        height:28px;
+        background: url('/static/vote/shijian.png') no-repeat;
+        background-size: 100% 100%;
+      }
+      span{
+        color: #FF0000;
+      }
+    }
+    .rule {
+      margin: 14px auto 0 auto;
+      width:691px;
+      background: #ffffff;
+      padding:20px 0 0 0;
+      .rule-tab {
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 20px;
+        font-size:26px;
+        font-weight:500;
+        color:rgba(137,137,137,1);
+        padding: 0 16px 20px 26px;
+        .rule-tab-icon{
+          flex: 0 0 26px;
+          width:26px;
+          height:26px;
+          background: url('/static/vote/shijian.png') no-repeat;
+          background-size: 100% 100%;
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        span {
+          color: #73C6F8;
+        }
+      }
+    }
+    .search {
+      margin: 16px auto 0 auto;
+      width:691px;
+      height:78px;
+      background:rgba(255,255,255,1);
+      border:2px solid rgba(25,174,246,1);
+      border-radius:6px;
+      display: flex;
+      align-items: center;
+      .search-input {
+        flex: 1;
+        padding-left: 15px;
+        input{
+          height: 74px;
+          width: 100%;
+        }
+      }
+      .search-but {
+        flex: 0 0 auto;
+        width:147px;
+        height:78px;
+        background:rgba(25,174,246,1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .search-but-icon{
+          width:51px;
+          height:48px;
+          background: url('/static/vote/sou.png') no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    .classify {
+      margin: 17px auto 20px auto;
+      width: 691px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .classify-tab {
+        width:335px;
+        height:68px;
+        background:rgba(255,255,255,1);
+        border:1px solid rgba(25,174,246,1);
+        border-radius:6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:32px;
+        font-weight:bold;
+        color:rgba(25,174,246,1);
+      }
+      .classify-tab:active {
+        background: #cccccc;
+      }
+      .classify-tab-action {
+        color:rgba(255,255,255,1);
+        background:#19AEF6;
+      }
+    }
+    .list {
+      margin: 0 9px 0 30px;
+      background: #f2f2f2;
+      ul{
+        background: #f2f2f2;
+        li {
+          float: left;
+          width:334px;
+          border-radius:6px;
+          background: #ffffff;
+          margin-right: 21px;
+          margin-bottom: 20px;
+          padding-bottom: 15px;
+          position: relative;
+          .tab-icon {
+            width:334px;
+            height:337px;
+            img {
+              width:334px;
+              height:337px;
+            }
+          }
+          .tab-info {
+            margin-top: 20px;
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .name {
+              flex: 0 0 auto;
+              font-size:30px;
+              font-weight:bold;
+              color:rgba(0,0,0,1);
+              span{
+                color: #EC0D27; 
+              }
+            }
+          }
+          .tan-but {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .but {
+              width:168px;
+              height:68px;
+              background:linear-gradient(90deg,rgba(25,174,246,1) 0%,rgba(61,149,238,1) 100%);
+              border-radius:34px;
+              font-size:32px;
+              font-weight:bold;
+              color:rgba(255,255,255,1);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .but:active {
+              color: #cccccc;
+            }
+          }
+          .ranking {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:98px;
+            height:39px;
+            background:rgba(0,0,0,1);
+            opacity:0.5;
+            border-radius:6px;
+            font-size:26px;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    .toast {
+      font-size:26px;
+      font-weight:400;
+      color:rgba(184,184,184,1);
+      text-align: center;
+      padding: 20px 0 30px 0;
+    }
+  }
+}

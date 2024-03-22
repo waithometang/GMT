@@ -1,0 +1,119 @@
+.qyewmxq {
+  background: url('../img/bg.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 640px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 49px 0px rgba(2, 144, 226, 0.47);
+    border-radius: 10px;
+    padding: 20px 34px 34px 34px;
+    box-sizing: border-box;
+    text-align: center;
+    max-height: 80vh;
+    overflow-y: scroll;
+
+    .ercode {
+      margin-top: 30px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #074D9C;
+      margin-bottom: 34px;
+      margin-top: 34px;
+    }
+
+    .line {
+      height: 1px;
+      background: #EEEEEE;
+    }
+
+    .item {
+      .xx {
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #379CEA;
+        margin-top: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        span {
+          display: inline-block;
+          width: 8px;
+          height: 30px;
+          background: #379CEA;
+          margin-right: 14px;
+        }
+      }
+
+      .mc,
+      .bm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 28px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #333333;
+        margin-top: 40px;
+
+        .left {}
+
+        .right {
+          font-weight: 500;
+        }
+      }
+
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: #379CEA;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-sizing: border-box;
+
+      img {
+        margin-right: 10px;
+        width: 36px;
+      }
+
+      .export {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+    }
+
+    .member {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #333333;
+
+      .member_item {
+        flex-basis: 25%;
+        margin-top: 20px;
+      }
+    }
+  }
+}

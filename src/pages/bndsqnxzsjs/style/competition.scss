@@ -1,0 +1,151 @@
+.competition {
+  background: #f72547;
+
+  .bg {
+    width: 100%;
+    background-image: url('./image/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 330px;
+
+
+    .clock {
+      width: 150px;
+      height: 200px;
+      background-image: url('./image/clock.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: fixed;
+      right: 10px;
+      top: -20px;
+      opacity: 0.8;
+
+      .time1,
+      .time2 {
+        width: 110px;
+        padding-left: 40px;
+        text-align: center;
+        font-size: 24px;
+        font-family: Microsoft YaHei UI;
+        font-weight: bold;
+        color: #ffffff;
+      }
+
+      .time1 {
+        // margin-top: 70px;
+        margin-top: 84px;
+      }
+    }
+
+    .content {
+      width: 700px;
+      // height: 100vh;
+      // box-shadow: 0px 1px 27px 0px rgba(0, 0, 0, 0.27);
+      border-radius: 10px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+
+      .item {
+        width: 100%;
+        width: 620px;
+        padding: 40px;
+        background: #fff;
+        border-radius: 10px;
+        margin: 30px 0;
+
+        .subject {
+          margin-left: 2em;
+          font-size: 40px;
+          font-family: Microsoft YaHei UI;
+          font-weight: bold;
+          color: #303030;
+          line-height: 60px;
+          text-indent: -2em;
+        }
+
+        .options {
+
+          .van-radio,
+          .van-checkbox {
+            min-height: 100px;
+            font-size: 30px;
+            line-height: 100px;
+            font-family: Microsoft YaHei UI;
+            font-weight: 400;
+            color: #353535;
+          }
+        }
+
+        .answer {
+          padding-top: 30px;
+          border-top: 1px solid #e6e6e6;
+          display: flex;
+          justify-content: space-between;
+          font-size: 30px;
+          font-family: Microsoft YaHei UI;
+          font-weight: bold;
+          color: #303030;
+
+          .rAnswer {
+            color: #ff3232;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .btn {
+      width: 700px;
+      height: 100px;
+      background: linear-gradient(95deg, #ff7d27 0%, #ff9830 100%);
+      border-radius: 10px;
+      text-align: center;
+      font-size: 40px;
+      font-family: Microsoft YaHei UI;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 100px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+
+    .load {
+      height: calc(100vh - 330px);
+    }
+  }
+}
+
+/deep/.van-radio-group .van-radio {
+  .van-radio__label {
+    margin-left: 36px;
+  }
+
+  .van-radio__icon--checked .van-icon {
+    background: #ff9b25;
+    border: #ff9b25;
+    color: #fff;
+  }
+
+  .van-radio__label--disabled {
+    color: #353535;
+  }
+}
+
+/deep/.van-checkbox-group .van-checkbox {
+  .van-checkbox__label {
+    margin-left: 36px;
+  }
+
+  .van-checkbox__icon--checked .van-icon {
+    background: #ff9b25;
+    border: #ff9b25;
+    color: #fff;
+  }
+
+  .van-radio__label--disabled {
+    color: #353535;
+  }
+}

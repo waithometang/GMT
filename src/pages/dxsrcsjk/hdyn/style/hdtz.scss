@@ -1,0 +1,59 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  img {
+    width: 100%;
+  }
+
+  .content {
+    box-sizing: border-box;
+    background: #FFFFFF;
+
+    .content_item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 28px;
+      font-weight: 500;
+      padding: 25px 30px;
+      border-bottom: 1px solid #EEEEEE;
+
+      .label {
+        flex: 1;
+        color: #898989;
+      }
+
+      .item {
+        flex: 3.2;
+        color: #333333;
+        text-align: right;
+      }
+    }
+
+  }
+
+  .split {
+    width: 100%;
+    height: 12px;
+    background: #EEEEEE;
+  }
+
+  .explain {
+    font-size: 28px;
+    font-weight: 500;
+    color: #898989;
+    padding: 30px;
+
+    p {
+      padding-bottom: 10px;
+    }
+
+    span {
+      color: #333333;
+    }
+  }
+
+}

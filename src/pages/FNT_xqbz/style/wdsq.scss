@@ -1,0 +1,22 @@
+.wdsq{
+  padding: 30px 0;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  top: 80px;
+  width: 750px;
+  .wdsq_item{
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+    position: relative;
+    margin: 0 30px;
+    .title{
+      color: black;
+    }
+    .time{
+      color: #cccccc;
+      float: right;
+    }
+  }
+}

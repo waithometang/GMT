@@ -1,0 +1,102 @@
+.container {
+  background-color: #F4F4F4;
+
+  .item-wrapper {
+    .content {
+      .group-name {
+        padding: 15px 30px;
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #333333;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        // justify-content: space-around;
+        // justify-content: space-between;
+        background-color: #fff;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .left,
+        .right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          flex: 1;
+
+          img {
+            width: 68px;
+            margin-bottom: 10px;
+          }
+
+          .team-name {
+            font-size: 28px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: #333333;
+          }
+        }
+
+        .middle {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .score {
+            margin-bottom: 15px;
+            font-size: 38px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: #333333;
+          }
+
+          .not-start {
+            font-size: 30px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: #898989;
+          }
+
+          .time {
+            font-size: 22px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #898989;
+          }
+        }
+      }
+    }
+  }
+}
+
+/deep/ .van-tabs {
+  flex-basis: 20% !important;
+}
+
+/deep/ .van-tab {
+  color: #333;
+}
+
+/deep/ .van-tab--active {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #0041A5;
+}
+
+/deep/ .van-tabs__line {
+  height: 8px;
+  background: #0041A5;
+  border-radius: 4px;
+}
+
+/deep/ .van-tabs__wrap--scrollable .van-tab {
+  flex: 0 1 auto;
+}

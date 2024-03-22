@@ -1,0 +1,72 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 99;
+
+  .dialog {
+    width: 600px;
+    height: 441px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 0 35px;
+    text-align: center;
+    box-sizing: border-box;
+
+    .icon {
+      float: right;
+      margin-top: 16px;
+      margin-right: -10px;
+
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+
+    .tips {
+      font-size: 34px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #333333;
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+
+    .title {
+      font-size: 30px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+    .mark {
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #575757;
+      line-height: 53px;
+    }
+
+    .btn {
+      width: 523px;
+      height: 80px;
+      text-align: center;
+      line-height: 80px;
+      background: #65b7f3;
+      border-radius: 10px;
+      font-size: 30px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+  }
+}

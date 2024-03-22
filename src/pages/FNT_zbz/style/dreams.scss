@@ -1,0 +1,119 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-top:30px;
+  background-color:#FFFFFF;
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    .title-receive {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+      align-items: center;
+      .title-receive-left {
+        display: flex;
+        align-items: center;
+        .receive-icon {
+          width: 80px;
+          height: 80px;
+          text-align: center;
+          line-height: 80px;
+          margin-right: 20px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .dream-name{
+          padding:10px 0;
+          height: 80px;
+          overflow: hidden;
+          .dream{
+            font-size: 28px;
+            font-weight: 500;
+            color: #0E0E0E;
+            span{
+              margin-right: 10px;
+            }
+          }
+          .name{
+            font-size: 26px;
+            font-weight: 400;
+            color: #969696;
+            margin-top: 10px;
+          }
+        }
+      }
+      .title-receive-right{
+        width: 150px;
+        height: 56px;
+        background-color: #FC5841;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 60px;
+        font-size: 28px;
+        font-weight: 400;
+        border-radius: 8px;
+      }
+      .blue{
+        background-color: rgba(112,182,254,1);
+      }
+      .hui{
+        background-color:rgba(220,220,220,1);
+      }
+      .huang{
+        background-color: #ffc18a;
+      }
+    }
+    .family {
+      padding: 0 30px;
+      margin: 20px 0;
+      .family-title{
+        font-size: 24px;
+        font-weight: 400;
+        color: #4A4A4A;
+      }
+      .family-body{
+        font-size:28px;
+        font-weight:500;
+        color:rgba(40,40,40,1);
+        line-height: 44px;
+        height: 88px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+      }
+    }
+    .dream_state{
+      display: flex;
+      padding:0 30px;
+      margin-bottom: 30px;
+      div{
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+        img{
+          width:26px;
+          height:26px;
+          margin-right: 12px;
+        }
+        font-size:24px;
+        font-weight:400;
+        color:rgba(150,150,150,1);
+        &:last-child{
+          margin: 0;
+        }
+      }
+    }
+    .border-bottom {
+      height: 10px;
+      width: 100%;
+      background-color: #f7f7f7;
+      margin-bottom: 40px;
+    }
+  }
+}

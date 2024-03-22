@@ -1,0 +1,220 @@
+.agriculture {
+  background: #ffffff;
+  .serch {
+    height: 80px;
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    background: #ffffff;
+      div{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background: #f4f4f4;
+        border-radius: 15px 15px 15px 15px;
+        input{
+          border-radius: 15px 15px 15px 15px;
+          flex: 1;
+          border:none;
+          margin-right: 7px;
+          background: #f4f4f4;
+          padding-left: 20px;
+          font-size: 30px;
+        }
+        .imagesss {
+          flex: 0 0 auto;
+          img{
+            height: 45px;
+            width: 45px;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+        }
+      }
+  }
+  .tag {
+    background: #f2f9ff;
+    width: 750px;
+    height: 148px;
+    .tagButtom {
+      background: #ffffff;
+      height: 128px;
+      padding: 0 24px;
+      display: flex;
+      .buttom {
+        width: 50%;
+        height: 68px;
+        margin: 30px 0;
+        border: 2px solid rgba(55, 157, 234, 1);
+        border-radius: 0px 6px 6px 0px;
+        font-size: 28px;
+        text-align: center;
+        line-height: 68px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(55, 157, 234, 1);
+      }
+      .action {
+        background: #379dea;
+        color: #ffffff;
+      }
+    }
+  }
+  .listData {
+    background: #ffffff;
+    .guidance {
+      background: #ffffff;
+      margin: 0 26px;
+      width: 698px;
+      border-bottom: 1px dotted  #cccccc;
+      .nameIcon {
+        height: 135px;
+        display: flex;
+        margin: 29px 0;
+        .images {
+          width: 174px;
+          margin-right: 20px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .titleTime {
+          margin-top: 19px;
+          width: 604px;
+          .title {
+            height: 76px;
+            overflow: hidden;
+            font-size: 28px;
+            font-family: PingFang-SC-Heavy;
+            font-weight: 800;
+            color: rgba(51, 51, 51, 1);
+          }
+          .time {
+            .icon {
+              display: inline-block;
+              height: 26px;
+              width: 26px;
+              margin-right: 11px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            height: 26px;
+            overflow: hidden;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+          }
+        }
+      }
+    }
+    .specialist {
+      background: #ffffff;
+      .content {
+        background: #f2f9ff;
+        height: auto;
+        .synopsis {
+          background: #ffffff;
+          margin-bottom: 20px;
+          .head {
+            height: 169px;
+            width: 699px;
+            margin: 0 28px 0 23px;
+            display: flex;
+            border-bottom: 1px solid #cccccc;
+            .icons {
+              width: 110px;
+              margin-right: 35px;
+              border-radius: 50%;
+              img {
+                height: 110px;
+                width: 110px;
+                margin: 30px 0 29px 0;
+              }
+            }
+            .nameSpecialty {
+              height: 108px;
+              width: 100%;
+              margin: 21px 0 40px 0;
+              .namePohone {
+                display: flex;
+                height: 48px;
+                .nameSex {
+                  width: 200px;
+                  overflow: hidden;
+                  font-size: 30px;
+                  font-family: PingFang-SC-Medium;
+                  font-weight: 500;
+                  color: rgba(51, 51, 51, 1);
+                  span {
+                    display: inline-block;
+                    margin-left: 20px;
+                    font-size: 26px;
+                    font-family: PingFang-SC-Medium;
+                    font-weight: 500;
+                    color: rgba(153, 153, 153, 1);
+                  }
+                }
+                .pohone {
+                  margin-left: 182px;
+                  width: 168px;
+                  height: 48px;
+                  overflow: hidden;
+                  border: 2px solid rgba(55, 157, 234, 1);
+                  border-radius: 6px;
+                  display: flex;
+                  .title {
+                    width: 80px;
+                    overflow: hidden;
+                    margin-left: 21px;
+                    font-size: 26px;
+                    font-family: PingFang-SC-Medium;
+                    font-weight: 500;
+                    color: rgba(55, 157, 234, 1);
+                    line-height: 48px;
+                  }
+                  .icon {
+                    width: 30px;
+                    height: 48px;
+                    margin-left: 11px;
+                    margin-right: 22px;
+                    img {
+                      margin-bottom: 15px;
+                      width: 100%;
+                      height: 23px;
+                    }
+                  }
+                }
+              }
+              .Specialty {
+                width: 70px;
+                height: 40px;
+                margin-top: 31px;
+                overflow: hidden;
+                font-size: 30px;
+                font-family: PingFang-SC-Medium;
+                font-weight: 500;
+                color: rgba(55, 157, 234, 1);
+              }
+            }
+          }
+          .base {
+            width: 703px;
+            margin: 23px 27px 24px 20px;
+            padding-bottom: 24px;
+            font-size: 28px;
+            text-align: left;
+            font-family: PingFang-SC-Medium;
+            font-weight: 500;
+            color: rgba(51, 51, 51, 1);
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+}

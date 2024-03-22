@@ -1,0 +1,198 @@
+
+.enterpriseCertification {
+  background: #f4f4f4;
+  font-size: 30px;
+  min-height: 100vh;
+  .from {
+    padding: 5px 22px 0px 22px;
+    font-size: 30px;
+    background: #ffffff;
+    .note {
+      padding: 30px 0 30px 0;
+      border-bottom: 1px solid;
+      border-color: #cccccc;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      .note_name {
+        flex: 0 0 auto;
+        font-size: 30px;
+      }
+      .note_input{
+        flex: 1;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input {
+          border: none;
+          background: none;
+          height: 40px;
+          float: right;
+          margin: 0;
+          padding: 0;
+          font-size: 30px;;
+        }
+      }
+      .note_but{
+        flex: 0 0 auto;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        span{
+          display: flex;
+          padding: 8px 20px;
+          border-radius:4px;
+          background: #ffffff;
+          border: 1px solid #cccccc;
+        }
+        .static {
+          background: #cccccc;
+        }
+      }
+    }
+    .item {
+      padding: 30px 0 30px 0;
+      border-bottom: 1px solid;
+      width: 690px; 
+      border-color: #cccccc;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+      .title {
+        display: inline-block;
+
+      }
+      .input {
+        display: inline-block;
+        font-size: 30px;
+        height: 40px;
+        input {
+          border: none;
+          background: none;
+          height: 40px;
+          float: right;
+          margin: 0;
+          padding: 0;
+          font-size: 30px;;
+        }
+        img {
+          width: 80px;
+          height: 80px;
+          margin-top: -20px;
+          border-radius: 50%;
+        }
+      }
+      .number {
+        float: inherit;
+        margin-left: 30px;
+      }
+      .right-img {
+        float: right;
+        img {
+          width: 40px;
+        }
+      }
+    }
+    .item:last-child{
+      border: none;
+    }
+  }
+  .images {
+    background: #ffffff;
+    width: 706px;
+    padding: 22px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    img{
+      height: 300px;
+      width: 100%;
+    }
+  }
+  .fasong {
+    width: 706px;
+    height: 80px;
+    overflow: hidden;
+    zoom: 1;
+    background: rgba(24, 130, 214, 1);
+    margin-left: 22px;
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .select-list {
+    position: relative;
+    width: 750px;
+    background: #ffffff;
+    .list-li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      color: rgba(102, 102, 102, 1);
+      font-weight: bold;
+      padding: 20px 0px;
+      margin: 0 40px;
+      border-bottom: 1px solid #cccccc;
+    }
+    .list-li:active {
+      background: #cccccc;
+    }
+  }
+  #Loading {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 100;
+  }
+  @-webkit-keyframes ball-beat {
+    50% {
+      opacity: 0.2;
+      -webkit-transform: scale(0.75);
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes ball-beat {
+    50% {
+      opacity: 0.2;
+      -webkit-transform: scale(0.75);
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  .ball-beat>div {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100% !important;
+    margin: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+    -webkit-animation: ball-beat 0.7s 0s infinite linear;
+    animation: ball-beat 0.7s 0s infinite linear;
+  }
+
+  .ball-beat>div:nth-child(2n-1) {
+    -webkit-animation-delay: 0.35s !important;
+    animation-delay: 0.35s !important;
+  }
+}

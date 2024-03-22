@@ -1,0 +1,36 @@
+.brand_work {
+  overflow: hidden;
+  background: #ffffff;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  .swiper_work {
+    width: 590px;
+    padding: 0px 30px;
+    .swipt_div {
+      height: 115px;
+      text-align: center;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        pointer-events: all;
+      }
+    }
+    .swiper-button-prev {
+      left: 0px;
+      width: 27px;
+      height: 73px;
+      background: url("/static/FNT_IMAGES/organization_more_left.png");
+      background-size: 100% 100%;
+      top: 48px;
+    }
+    .swiper-button-next {
+      right: 0px;
+      width: 27px;
+      height: 73px;
+      background: url("/static/FNT_IMAGES/organization_more_right.png");
+      background-size: 100% 100%;
+      top: 48px;
+    }
+  }
+}

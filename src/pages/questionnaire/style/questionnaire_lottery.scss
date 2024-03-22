@@ -1,0 +1,174 @@
+.questionnaire_lottery {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  .questionnaire_lottery_pages{
+    width:750px;
+    height:1145px;
+    background-image:url('/static/questionnaire/img_07.png') ;
+    background-size: 100% 100%;
+    margin: 30px 5px;
+    text-align: center;
+    .money{
+      padding-top: 140px;
+      font-size:90px;
+      font-weight:bold;
+      color:rgba(243,153,11,1);
+    }
+    .curve{
+      margin-top: 140px;
+      font-size:60px;
+      font-weight:bold;
+      color:rgba(255,219,66,1);
+    }
+    .intro{
+      margin-top: 57px;
+      font-size:34px;
+      font-weight:bold;
+      color:rgba(255,205,126,1);
+      line-height:48px;
+    }
+    .title{
+      padding-top: 50px;
+      font-size: 40px;
+      color:rgba(255,205,126,1);
+    }
+    .size{
+      font-size: 28px;
+    }
+    .button{
+      margin-top: 120px;
+      width:472px;
+      height:82px;
+      background:rgba(255,255,255,1);
+      border-radius:41px;
+      line-height: 82px;
+      font-size:34px;
+      font-weight:bold;
+      color:rgba(243,153,11,1);
+      display: inline-block;
+    }
+    .jifen_intro{
+      font-size:26px;
+      font-weight:bold;
+      color:rgba(255,205,126,1);
+      line-height:36px;
+    }
+  }
+  .bg1{
+    background-image:url('/static/questionnaire/img_07.png') ;
+  }
+  .bg2{
+    background-image:url('/static/questionnaire/img_08.png') ;
+  }
+  .shade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    button{
+      position: absolute;;
+      z-index: 99;
+    }
+    .animation {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      transition: all 3s linear;
+      transition-delay:1s;
+      top: -70vh;
+      img {
+        position: absolute;
+      }
+      .img1 {
+        width: 67px;
+        height: 82px;
+        top: 168px;
+        right: 80px;
+      }
+      .img2 {
+        width: 130px;
+        height: 154px;
+        top: 272px;
+        left: 91px;
+      }
+      .img3 {
+        width: 117px;
+        height: 133px;
+        top: 413px;
+        right: 257px;
+      }
+      .img4 {
+        top: 532px;
+        left: 72px;
+        width: 67px;
+        height: 82px;
+      }
+      .img5 {
+        width: 107px;
+        height: 138px;
+        top: 586px;
+        left: 225px;
+      }
+      .img6 {
+        right: 31px;
+        top: 679px;
+        width: 107px;
+        height: 138px;
+      }
+      .img7 {
+        left: 67px;
+        top: 793px;
+        width: 107px;
+        height: 138px;
+      }
+      .img8 {
+        top: 781px;
+        right: 210px;
+        width: 76px;
+        height: 98px;
+      }
+      .img9 {
+        top: 1037px;
+        left: 237px;
+        width: 117px;
+        height: 133px;
+      }
+    }
+    .bottom{
+      top: 100vh;
+    }
+  }
+
+  .alsrtInfo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.1);
+    .profPrompt_test{
+      padding: 30px 10px;
+      width: 480px;
+      overflow: hidden;
+      line-height: 28px;
+      border: 1px solid #4eb6d3;
+      color: #4eb6d3;
+      position: absolute;
+      background-color: #fbfbfb;
+      top: 526px;
+      left: 50%;
+      font-size: 30px;
+      font-family: Gotham-Book;
+      opacity: 1;
+      /* z-index: 1; */
+      text-align: center;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

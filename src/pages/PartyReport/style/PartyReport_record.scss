@@ -1,0 +1,33 @@
+.PartyReport_record{
+  /deep/ .MissiveList{
+    top: 132px;
+  }
+  .PartyReport_record_item{
+    border-bottom: 1px solid rgba(238,238,238,1);
+    padding:  35px 66px;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    .item_img{
+      width:74px;
+      height:78px;
+      margin-right: 64px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .item_font{
+      line-height: 52px;
+      p{
+        margin: 0;
+        font-size:28px;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        .bold{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

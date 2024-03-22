@@ -1,0 +1,44 @@
+.deliberativeDemocracy {
+  padding-left: 0px;
+  padding-right: 0px; 
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  .lady{
+    // position: absolute;
+    width: 750px;
+    bottom: 0;
+    top: 80px;
+    background: #ffffff;
+    z-index: -1;
+    .item {
+      background: #ffffff;
+      padding:0px 20px 20px 20px;
+        .header-icon {
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+        }
+        .title {
+          letter-spacing: 5px;
+          font-size: 28px;
+          font-weight: 500;
+          width: 550px;
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+                }
+        .number {
+          float: right;
+          margin-right: 20px;
+          
+            img{
+              width: 20px;
+              height: 25px;;
+            }
+        }
+      }
+  }
+  
+}

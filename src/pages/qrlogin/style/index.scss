@@ -1,0 +1,84 @@
+.qrlogin {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 180px;
+  .img {
+    width: 400px;
+    margin: 0 auto;
+    img {
+      width: 400px;
+    }
+  }
+  .title {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 42px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    color: #343434;
+    margin-top: 50px;
+  }
+  .btns {
+    position: fixed;
+    width: 100%;
+    bottom: 180px;
+    .btn {
+      width: 400px;
+      height: 90px;
+      margin: 0 auto;
+      display: flex;
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+      background: #f2f2f2;
+      color: #07c160 !important;
+      font-size: 36px;
+      font-family: Microsoft YaHei UI;
+      font-weight: 400;
+      color: #ffffff;
+      &:first-child {
+        background: #07c160;
+        color: #fff !important;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}
+.xxrz {
+  .img {
+    width: 206px;
+    img {
+      width: 206px;
+    }
+  }
+  .title {
+    margin-top: 118px;
+  }
+  .btns {
+    position: fixed;
+    width: 100%;
+    bottom: 180px;
+    .btn {
+      width: 400px;
+      height: 90px;
+      margin: 0 auto;
+      display: flex;
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+      background: #f2f2f2;
+      color: #07c160 !important;
+      font-size: 36px;
+      font-family: Microsoft YaHei UI;
+      font-weight: 400;
+      color: #ffffff;
+      &:first-child {
+        background: #07c160;
+        color: #fff !important;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.GMT_releaseContentList {
+  background: #ffffff;
+  .GMT_list {
+    width: 699px;
+    margin: 0 28px 0 23px;
+    .GMT_content {
+      min-height: 174px;
+      border-bottom: 1px dotted  #cccccc;
+      display: flex;
+        &:last-child{
+          border: none;
+        }
+      .GMT_left {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        min-height: 134px;
+        width: 500px;
+        .GMT_title {
+          height: auto;
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+          font-size: 28px;
+          font-family: PingFang-SC-Heavy;
+          font-weight: 800;
+          color: rgba(51, 51, 51, 1);
+          line-height:45px;
+          height: 90px;
+          margin-bottom: 10px;
+          span {
+            width: 150px;
+            height: 50px;
+            background: rgba(253, 233, 218, 1);
+            border-radius: 10px;
+            font-size: 28px;
+            font-family: PingFang-SC-Medium;
+            font-weight: 500;
+            color: rgba(255, 143, 3, 1);
+            line-height: 50px;
+            text-align: center;
+          }
+        }
+        .GMT_timeNumber {
+          height: 30px;
+          width: 100%;
+          display: flex;
+          position: relative;
+          // top: 25px;
+          justify-content: space-between;
+          align-items: center;
+          // margin-bottom: 40px;
+          .GMT_time {
+            width: 50%;
+            display: flex;
+            font-size: 24px;
+            line-height: 33px;
+            overflow: hidden;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            .GMT_images {
+              margin-top: 4px;
+              margin-right: 10px;
+              height: 26px;
+              width: 26px;
+              img {
+                width: 26px;
+                height: 26px;
+              }
+            }
+          }
+          .GMT_time_Type { 
+            width: auto;
+          }
+          .GMT_time_color {
+            margin-right: 20px;
+            border: 1px solid rgba(153, 153, 153, 1);;
+            border-radius: 20px 20px 20px 20px;
+            padding:5px 15px 5px 15px;
+            height: inherit;
+          }
+        }
+      }
+      .GMT_right {
+        width: 174px;
+        height: 134px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        img {
+          height: 134px;
+          width: 174px;
+        }
+      }
+    }
+    .GMT_content:last-child{
+      border: none;
+    }
+  }
+}

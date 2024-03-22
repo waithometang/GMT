@@ -1,0 +1,88 @@
+.PersonalHomePage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f2f9ff;
+  .main {
+    margin: 0;
+    padding: 0;
+    height: 437px;
+    width: 750px;
+    background: url("/images/FirstLevelPage/GrIcon02.jpg") no-repeat;
+    background-size: 100% 100%;
+    overflow: unset;
+    .pages {
+      position: relative;
+      top: 165px;
+      margin-left: 30px;
+      width: 690px;
+      height: 240px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 10px;
+      text-align: center;
+      overflow: unset;
+      .HeadPortrait {
+        width: 160px;
+        height: 160px;
+        display: inline-block;
+        margin-top: -54px;
+        border-radius: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 100%;
+        }
+      }
+      .fot {
+        margin-top: 31px;
+        font-size: 36px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        color: rgba(51, 51, 51, 1);
+        img {
+          width: 27px;
+          height: 36px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .receptacle {
+    width: 750px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    .IconName {
+      display: inline-block;
+      height: 96px;
+      width: 244px;
+      margin-top: 37px;
+      .icon {
+        height: 50px;
+        width: 60px;
+        margin-left: 92px;
+        margin-bottom: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .name {
+        height: 36px;
+        overflow: hidden;
+        font-size: 28px;
+        text-align: center;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .IconName_action {
+      background: #cccccc4f;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.images ul li{
+  position: relative;
+  img{
+    width: 100%!important;
+    width: 100%!important;
+    object-fit: cover;
+  }
+  .cloes{
+      width:44px;
+      height:44px;
+      position: absolute;
+      top: -22px;
+      right: -22px;
+      z-index: 999;
+      img{
+        width:100%!important;
+        height:100%!important;
+      }
+    }
+}
+.want-report {
+  width: 600px;
+  height: 90px;
+  padding: 30px 70px 0 70px;
+  span {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+  }
+}
+.tips{
+  padding:25px 20px 0px 20px;
+  color: #ee0a24;
+  font-size: 24px;
+  text-align: left;
+}

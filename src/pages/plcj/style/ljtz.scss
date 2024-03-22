@@ -1,0 +1,143 @@
+.main {
+  text-align: center;
+  width: 100%;
+
+  .img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .title {
+    position: fixed;
+    top: 20px;
+    left: 212px;
+    font-size: 60px;
+    font-family: FZLanTingHei-EB-GBK;
+    font-weight: bold;
+    color: #fffefe;
+  }
+
+  .info {
+    position: fixed;
+    top: 260px;
+    left: 30px;
+    width: 690px;
+    height: 340px;
+    background: #ffffff;
+    box-shadow: -2px 6px 16px 0px rgba(55, 55, 55, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    padding: 0 18px;
+    box-sizing: border-box;
+
+    .txt1 {
+      margin-top: 40px;
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #3c8ae1;
+      line-height: 48px;
+    }
+
+    .txt2 {
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #333333;
+      line-height: 49px;
+    }
+  }
+
+  .dialogf {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.7);
+
+    .dialog {
+      position: fixed;
+      top: 400px;
+      left: 80px;
+      width: 588px;
+      height: 302px;
+      background: #ffffff;
+      border-radius: 6px;
+      box-sizing: border-box;
+      padding: 20px;
+
+      .cross {
+        position: absolute;
+        right: 20px;
+      }
+
+      .txt3 {
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #000000;
+        line-height: 30px;
+        margin: 70px 0;
+      }
+
+      .dialog-footer {
+        display: flex;
+        justify-content: space-around;
+
+        .dialog-btn {
+          width: 250px;
+          height: 82px;
+          font-size: 30px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #898989;
+          line-height: 82px;
+          border: 1px solid #d2d2d2;
+          border-radius: 4px;
+
+          &.btnr {
+            background: #57b3f7;
+            color: #fffefe;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+
+    .btn1 {
+      margin: 0 auto;
+      width: 680px;
+      height: 90px;
+      z-index: 99;
+      line-height: 90px;
+      background: #ff632b;
+      border-radius: 10px;
+      font-size: 34px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #ffffff;
+      touch-action: none;
+    }
+
+    .btn2 {
+      margin: 0 auto;
+      width: 680px;
+      height: 90px;
+      background: #c0c0c0;
+      border-radius: 10px;
+      font-size: 34px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #ffffff;
+      line-height: 90px;
+    }
+  }
+}

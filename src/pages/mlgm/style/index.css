@@ -1,0 +1,95 @@
+.container {
+  background-color: #F6F6F6;
+}
+
+.container .headImg {
+  background-color: #fff;
+  padding: 30px;
+  width: 690px;
+  height: 220px;
+}
+
+.container .headImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .bd {
+  background-color: #F6F6F6;
+  height: 14px;
+}
+
+.container .search {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+}
+
+.container .search .latest {
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+
+.container .search .latest::before {
+  display: block;
+  content: '';
+  width: 34px;
+  height: 8px;
+  background: #ffdb25;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
+}
+
+.container .search .search_val {
+  display: flex;
+}
+
+.container .search .search_val input {
+  width: 380px;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  border-radius: 29px;
+  padding-left: 24px;
+}
+
+.container .search .search_val input::placeholder {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #a3a3a3;
+}
+
+.container .search .search_val .btn {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container .search .search_val .btn img {
+  width: 40px;
+  height: 40px;
+}
+
+.container .back {
+  position: fixed;
+  right: 28px;
+  bottom: 100px;
+  z-index: 999;
+}
+
+.container .back img {
+  width: 80px;
+  height: 80px;
+}
+
+/deep/ .serch[data-v-6c2e9354] {
+  padding: 0;
+}

@@ -1,0 +1,42 @@
+.PartyActivity_index{
+  .Entrance{
+    height: 80px;
+    margin:2.667vw;
+    font-size: 28px;
+    margin-bottom: 0;
+    padding-right:2.667vw;
+    input{
+      width: 99%;
+      height: 90%;
+      border-radius: 10px;
+      padding-left: 30px;
+    }
+  }
+  .publicListTab{
+    .public_list{
+      .public_list_left{
+        .public_list_base{
+          .PartyActivity_index_static{
+            border-radius:19px;
+            font-size:28px;
+            font-weight:500;
+            justify-content: center;
+            margin-right: 20px;
+            padding: 7px 20px;
+          }
+          .PartyActivity_index_static_cor{
+            color:rgba(101,183,243,1);
+            background:rgba(224,241,253,1);
+          }
+          .PartyActivity_index_static_cor_1{
+            color:rgba(137,137,137,1);
+            background:rgba(224,241,253,1);
+          }
+        }
+        .public_list_base_time{
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

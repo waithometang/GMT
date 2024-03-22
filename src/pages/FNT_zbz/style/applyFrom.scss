@@ -1,0 +1,135 @@
+.main {
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  .input-all {
+    padding: 20px 30px;
+    .dreams-title {
+      font-size: 30px;
+      font-weight: 400;
+      width: 100%;
+      position: relative;
+      left: 1px;
+    }
+    .textarea-main {
+      position: relative;
+      width: 690px;
+      margin: 0 auto;
+      .input-all-text {
+        display: flex;
+        width: 690px;
+        .textare-body-nor {
+          position: relative;
+          width: 630px;
+          height: 400px;
+          top: 42px;
+          font-weight: 400;
+          opacity: 0.9;
+          background-color: rgba(255, 255, 255, 0);
+        }
+        .span-text {
+          font-size: 24px;
+          font-weight: 400;
+          position: absolute;
+          right: 8px;
+          bottom: -35px;
+          color: #4a4a4a;
+        }
+        .icon-text {
+          position: relative;
+          width: 40px;
+          height: 40px;
+          top: 40px;
+          margin-right: 20px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    .picture{
+      padding-top: 60px;
+      ul{
+        li{
+          float: left;
+          width:240px;
+          height:200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+          img{
+            width:200px;
+            height:200px;
+          }
+        }
+      }
+    }
+    .input-title-body {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e6e6e5;
+      padding-bottom: 35px;
+      margin-top: 35px;
+      .input-title {
+        font-size: 30px;
+        font-weight: 500;
+        color: #272828;
+        margin-right: 50px;
+      }
+      .input-body {
+        font-size: 30px;
+        font-weight: 400;
+        position: relative;
+        top: -2px;
+        opacity: 0.9;
+        margin-left: 15px;
+        width: 300px;
+      }
+      .select-body {
+        font-size: 30px;
+        width: 100%;
+        font-weight: 400;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border: 0;
+        background-color: rgba(255,255,255,0);
+        position: relative;
+        left: 15px;
+      }
+      .yzm {
+        font-size: 28px;
+        color: #ffffff;
+        background-color: #2cb0fb;
+        border-radius: 10px;
+        padding: 17px 20px;
+      }
+      .xl {
+        position: relative;
+        margin: 0 10px 0 auto;
+        z-index:0;
+        img {
+          width: 40px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .input-button {
+    border: 0;
+    background-color: rgba(255,190,110,1);
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    width: 650px;
+    height: 80px;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+    margin: 40px 0;
+    line-height: 80px;
+    text-align: center;
+  }
+}

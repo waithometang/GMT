@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  width: 690px;
+  flex-direction: column;
+  margin: 0 auto;
+  .id-massage {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    .id-icon {
+      width: 84px;
+      height: 84px;
+      margin-right: 30px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .id-name {
+      font-size: 34px;
+      font-weight: bold;
+      color: #f16600;
+      margin-bottom: 10px;
+    }
+    .id-phone {
+      font-size: 28px;
+      font-weight: 400;
+      color: #b4b4b4;
+    }
+  }
+  .yy-type-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    .yy-types {
+      .yy-typename {
+        color: #282828;
+        font-size: 30px;
+        font-weight: 500;
+        margin-right: 15px;
+      }
+      .yy-type {
+        color: #787878;
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+  }
+  .zx-themes {
+    &.zxzt-bottom {
+      margin-bottom: 22px;
+    }
+    &.zxnr-bottom {
+      margin-bottom: 90px;
+    }
+    .zx-themename {
+      color: #282828;
+      font-size: 30px;
+      font-weight: 500;
+      margin-right: 10px;
+    }
+    .zx-theme {
+      color: #787878;
+      font-size: 30px;
+      font-weight: 400;
+    }
+  }
+  .body-border{
+      height: 10px;
+      width: 100%;
+      background-color:#F7F7F7;
+      position: relative;
+      top:-40px;
+  }
+}

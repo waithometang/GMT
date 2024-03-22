@@ -1,0 +1,75 @@
+.infoList{
+  background: #ffffff;
+  // padding: 0 30px;
+  overflow: hidden;
+  .infoList_list_tab {
+    padding: 20px 30px;
+    border-bottom: 1px dashed  rgba(204,204,204,1);
+    overflow: hidden;
+    .infoList_list_tab_head {
+      display: flex;
+      align-items: center;
+      font-size:32px;
+      font-family:PingFang SC;
+      font-weight:bold;
+      color:rgba(51,51,51,1);
+      line-height:54px;
+      .infoList_list_tab_head_tab {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        .infoList_list_tab_head_icon {
+          flex: 0 0 auto;
+          margin-right: 17px;
+          width:28px;
+          height:28px;
+          display: flex;
+          align-items: center;
+          img{
+            width:28px;
+            height:28px;
+            border-radius:2px;
+          }
+        }
+      }
+      .infoList_list_tab_head_yx {
+        flex: 1;
+        text-align: right;
+        color: #41A2EB;
+      }
+    }
+    .infoList_list_tab_middle {
+      margin: 30px 0;
+      font-size:28px;
+      font-family:PingFang SC;
+      font-weight:500;
+      color:rgba(102,102,102,1);
+      text-overflow: -o-ellipsis-lastline;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .infoList_list_tab_base {
+      display: flex;
+      align-items: center;
+      .infoList_list_tab_base_tab {
+        flex: 0 0 auto;
+        display: flex;
+        margin-right: 153px;
+        align-items: center;
+        font-size:24px;
+        font-family:PingFang SC;
+        font-weight:500;
+        color:rgba(153,153,153,1);
+        img{
+          width:26px;
+          height:26px;
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}

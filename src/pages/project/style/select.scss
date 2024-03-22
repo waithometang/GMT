@@ -1,0 +1,35 @@
+.select {
+    // width: 706px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgba(113, 192, 255, 1);
+    font-size: 28px;
+    padding-bottom: 10px;
+    display: flex;
+    div {
+      display: inline-block;
+      height: auto;
+      padding: 10px 0;
+      flex: 1;
+      text-align: center;
+      border: 1.5px solid;
+      border-color: rgba(113, 192, 255, 1);
+      border-radius:6px;
+      margin: 0px 10px 0px 10px;
+    }
+    div:active{
+      background: #cccccc;
+    }
+    .div_four{
+      width: 160px;
+    }
+    .cor1 {
+      background:rgba(102,183,243,1);
+      border:1px solid rgba(61, 158, 231, 1);
+      border-radius:6px;
+      color: #ffffff;
+    }
+    .cor1::active{
+      background: #ffffff;
+    }
+  }

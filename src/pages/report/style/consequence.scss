@@ -1,0 +1,43 @@
+.consequence {
+  background: #ffffff;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  .icon {
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width:143px;
+      height:143px;
+    }
+  }
+  .text1 {
+    text-align: center;
+    font-size:40px;
+    font-weight:bold;
+    color:rgba(16,17,16,1);
+    margin-bottom: 30px;
+  }
+  .text2 {
+    margin-top: 10px;
+    color: #898989;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400px;
+  }
+  .base {
+    margin: 80px 30px 0 30px;
+    width:690px;
+    height:78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(25,174,246,1);
+    border-radius:6px;
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+  }
+}

@@ -1,0 +1,110 @@
+.organization_xq {
+  overflow: hidden;
+  background: rgba(244, 244, 244, 1);
+  .organization_xq_hread {
+    display: flex;
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    .list_organization_left{
+      width:94px;
+      height:94px;
+      background:rgba(255,255,255,1);
+      border-radius:20px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .list_organization_right{
+      margin-left: 30px;
+      display: flex;
+      align-items: center;
+      .list_organization_right_title{
+        font-size:32px;
+        font-weight:bold;
+        color:rgba(51,51,51,1);
+      }
+      .list_organization_right_div{
+        margin-top: 10px;
+        font-size:26px;
+        font-weight:400;
+        color:rgba(74,74,74,1);
+        span{
+          &:first-child{
+            margin-right: 90px;
+          }
+          span{
+            color: #969696;
+          }
+        }
+      }
+    }
+  }
+  .organization_xq_item{
+      padding: 30px;
+      background: #ffffff;
+      display: flex;
+      border-bottom: 1px solid rgba(240,240,240,1);
+      .organization_xq_item_title{
+        font-size:30px;
+        font-weight:400;
+        color:rgba(150,150,150,1);
+      }
+      .organization_xq_item_content{
+        font-size:30px;
+        font-weight:500;
+        color:rgba(40,40,40,1);
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        a{
+          text-decoration:none;
+          color: #000;
+        }
+        img{
+          width:36px;
+          height:36px;
+          margin-right: 20px;
+        }
+      }
+  	}
+  .map{
+    padding: 0px 30px 30px 30px;
+    width:690px;
+    height:360px;
+    background: #ffffff;
+    #container{
+    	width:690px !important;
+    	height:360px !important;
+    }
+  }
+  .organization_xq_content{
+    background: #ffffff;
+    padding:30px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    .title_font {
+      display: flex;
+      font-size: 32px;
+      font-weight: 500;
+      color: rgba(40, 40, 40, 1);
+      align-items: center;
+      div {
+        width: 8px;
+        height: 26px;
+        background: rgba(252, 88, 65, 1);
+        margin-right: 17px;
+      }
+    }
+    .content{
+      font-size:28px;
+      font-weight:400;
+      color:rgba(120,120,120,1);
+      line-height:44px;
+      text-indent:2em;
+    }
+  }
+}

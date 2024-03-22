@@ -1,0 +1,74 @@
+.main{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFEBEBEB;
+  .hread-img{
+    background: url('/images/party/party-banner-04.png');
+    height:429px;
+    width: 750px;
+    background-size: 100% 100%;
+  }
+  .main-from{
+    height: 600px;
+    width: 670px;
+    margin-left: 40px;
+    background: #ffffff;
+    margin-top: -54px;
+    .main-ul{
+      margin-top: 0px;
+      padding-left: 0px;
+      margin-bottom: 0px;
+      list-style: none;
+      .main-li{
+        height: 130px;
+        width: 670px;
+        img{
+          width:32px;
+          margin-left: 55px;
+          margin-right: 22px;
+          position: relative;
+          top: 46%;
+        }
+        input{
+          height: 56px;
+          width: 522px;
+          position: relative;
+          top: 43%;
+          border: none;
+          border-bottom: 1px solid;
+          border-color: rgba(221,222,224,1);;
+        }
+      }
+    }
+    .main-but{
+      width:590px;
+      height:88px;
+      background:rgba(214,24,24,1);
+      border:1px solid rgba(214, 24, 24, 1);
+      border-radius:6px;
+      margin-left: 40px;
+      margin-top: 111px;
+      line-height: 88px;
+      text-align: center;
+      font-size:32px;
+      font-family:MicrosoftYaHei;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+    }
+  }
+  .fot-font{
+    margin-top: 145px;
+    text-align: center;
+    font-size:28px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,153,0,1);
+    line-height:37px;
+  }
+
+}

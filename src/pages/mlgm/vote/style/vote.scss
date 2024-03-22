@@ -1,0 +1,38 @@
+.vote {
+  .voteTab {
+    position: fixed;
+    bottom: 0;
+    width:750px;
+    height:120px;
+    background:rgba(255,255,255,1);
+    border-top: 1px solid rgba(170,186,200,0.22);
+    .tab-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 14px 0;
+      .tab {
+        flex: 0 0 auto;
+        .icon {
+          width:59px;
+          height:53px;
+          img {
+            width:59px;
+            height:53px; 
+          }
+        }
+        .name {
+          font-size:28px;
+          font-weight:500;
+          color:rgba(181,181,181,1);
+        }
+        .name-action {
+          color:rgba(25,174,246,1);
+        }
+      }
+      .tab:active {
+        background: #cccccc;
+      }
+    }
+  }
+}

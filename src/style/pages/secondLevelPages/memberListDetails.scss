@@ -1,0 +1,177 @@
+
+.memberListDetails{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background: #FAFAFA;
+  .head {
+    height: 295px;
+    width: 100%;
+    background: #ffffff;
+    .head-content {
+      position: relative;
+      top: 30px;
+      width:690px;
+      height:244px;
+      margin: 0 30px;
+      background: url('/images/backedrop@2x.png') no-repeat;
+      background-size: 100% 100%;
+      border-radius:14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .head-top{
+        display: flex;
+        align-items: center;
+        .head-icon{
+          width:120px;
+          height:120px;
+          margin: 0 20px 0 33px;
+          flex: 0 0 auto;
+          img{
+            width:120px;
+            height:120px;
+            border-radius: 8px;
+          }
+        }
+        .head-title {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .name-tel {
+            display: flex;
+            align-items: center;
+            .name {
+              flex: 0 0 auto;
+              font-size:32px;
+              font-weight:500;
+              color:rgba(74,74,74,1);
+            }
+            .tel {
+              flex: 1;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              padding-right: 80px;
+              a{
+                text-decoration:none;
+                .tel-but {
+                  background: #ffffff;
+                  font-size: 22px;
+                  padding:0 10px;
+                  color:rgba(55,157,234,1);
+                  border:2px solid rgba(55, 157, 234, 1);
+                  border-radius:4px;
+                  display: flex;
+                  align-items: center;
+                  img{
+                    padding-left: 10px;
+                    height: 25px;
+                    width: 25px;
+                  }
+                }
+              }
+            }
+          }
+          .duty {
+            margin-top: 10px;
+            font-size:22px;
+            font-weight:400;
+            color:rgba(74,74,74,1);
+          }
+          .head-tel {
+            margin-top: 10px;
+            font-size:24px;
+            font-weight:400;
+            color:rgba(74,74,74,1);
+            flex: 0 0 auto;
+          }
+        }
+      }
+      .head-images {
+        display: flex;
+        margin-top: 5px;
+        padding: 0 20px;
+        .head-tel {
+          font-size:24px;
+          font-weight:400;
+          color:rgba(74,74,74,1);
+          flex: 0 0 auto;
+        }
+        .head-images-content{
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          .min-images {
+            flex: 0 0 auto;
+            margin-right: 55px;
+            font-size:22px;
+            font-weight:400;
+            color:rgba(180,180,180,1);
+            display: flex;
+            justify-content: flex-start;
+            .min-icon{
+              width:25px;
+              height:26px;
+              flex: 0 0 auto;
+              margin-right: 10px;
+              img{
+                width:25px;
+                height:26px;
+              }
+            }
+            .min-images-action {
+              font-size:24px;
+              font-weight:400;
+              color:rgba(120,120,120,1);
+            }
+          }
+        }
+      }
+    }
+  }
+  .interval{
+    margin-top: 10px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid;
+    border-color: #f4f4f4;
+    div{
+      height: 30px;
+      width: 8px;
+      background: #379dea;
+      border-radius: 5px;
+      margin-right: 22px;
+      margin-left: 40px;
+    }
+    .more{
+      float: right;
+      font-size: 28px;
+      font-weight: 500;
+      color: #999999;
+      width: auto;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      img{
+        height: 30px;
+      }
+    }
+  }
+  .list{
+    position: absolute;
+    top: 342px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    background: #ffffff;
+  }
+}

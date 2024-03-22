@@ -1,0 +1,242 @@
+.sjtj {
+  background: #EFEFEF;
+  .head {
+    width:100%;
+    height:500px;
+    background: url('/static/sjtj/beij.png') no-repeat;
+    background-size: 100% 100%;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    .head-name {
+      padding-top: 53px;
+      padding-bottom: 15px;
+      font-size:32px;
+      font-weight:400;
+    }
+    .head-number {
+      font-size:80px;
+      font-family:Microsoft YaHei;
+      font-weight:bold;
+    }
+  }
+  .statistics-content {
+    height: 176px;
+    width: 100%;
+    position: relative;
+    .content-tab {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      right: 30px;
+      width:690px;
+      height:422px;
+      background:rgba(255,255,255,1);
+      box-shadow:0px 0px 10px 0px rgba(39,39,39,0.1);
+      border-radius:10px;
+      padding-top: 20px;
+      .content-head {
+        margin: 0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content-head-tab {
+          flex: 1;
+          padding: 30px 25px;
+          border-bottom: 1px solid #cccccc;
+          border-right: 1px solid #cccccc;
+          .content-head-tab-name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:28px;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            i{
+              display: inline-block;
+              width:26px;
+              height:26px;
+              margin-right: 8px;
+              background: url('/static/sjtj/ren.png') no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+          .content-head-tab-number {
+            margin-top: 10px;
+            font-size:54px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(0,153,255,1);
+            text-align: center;
+          }
+        }
+        .content-head-tab:last-child {
+          border-right: none;
+          .content-head-tab-name {
+            i {
+              background: url('/static/qiye.png') no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+      }
+      .content-base {
+        padding: 0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content-base-tab {
+          flex: 1;
+          padding: 30px 25px;
+          border-right: 1px solid #cccccc;
+          .content-base-tab-name {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            .tab-left-name {
+              font-size:28px;
+              font-weight:400;
+              color:rgba(51,51,51,1);
+            }
+            .tab-right-name {
+              font-size:32px;
+              font-weight:400;
+              color:rgba(0,153,255,1);
+            }
+          }
+        }
+        .content-base-tab:last-child {
+          border: none;
+        }
+      }
+    }
+  }
+  .general-situation {
+    background: #ffffff;
+    padding: 30px;
+    .situation-name {
+      font-size:36px;
+      font-weight:bold;
+      color:rgba(51,51,51,1);
+    }
+    .content-list {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      .list-tab {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .list-tab-icon {
+          flex: 0 0 auto;
+          width:72px;
+          height:72px;
+          background: url('/static/sjtj/shishi.png') no-repeat;
+          background-size: 100% 100%;
+        }
+        .lsit-tab-name {
+          flex: 1;
+          text-align: center;
+          .tab-head-number {
+            font-size:36px;
+            font-weight:bold;
+            color:rgba(204,51,51,1);
+          }
+          .tab-head-name {
+            font-size:28px;
+            font-weight:400;
+            color:rgba(153,153,153,1);
+          }
+        }
+      }
+      .list-tab-right {
+        .list-tab-icon {
+          background: url('/static/sjtj/gongzuo.png') no-repeat;
+          background-size: 100% 100%;
+        }
+        .lsit-tab-name {
+          .tab-head-number {
+            color:rgba(255,153,51,1);
+          }
+        }
+      }
+    }
+  }
+  .ranking-list {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 30px 30px 0 30px;
+    .ranking-list-head {
+      display: flex;
+      align-items: center;
+      font-size:28px;
+      font-weight:bold;
+      color:rgba(51,51,51,1);
+      i {
+        display: inline-block;
+        width:8px;
+        height:24px;
+        margin-right: 24px;
+        background:rgba(96,152,227,1);
+        border-radius:2px;
+      }
+    }
+    .ranking-list-content {
+      padding: 30px 0 0 0;
+      .ranking-list-tag {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        .tag-left {
+          flex: 0 0 35px;
+          margin-right: 20px;
+          font-size:32px;
+          font-weight:500;
+          color:rgba(51,51,51,1);
+          text-align: center;
+          img {
+            width: 35px;
+            height: 45px;
+          }
+        }
+        .tag-right {
+          flex: 1;
+          padding-bottom: 25px;
+          border-bottom: 1px solid #cccccc;
+          .tag-right-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .right-head-left {
+              flex: 0 0 auto;
+              font-size:32px;
+              font-weight:500;
+              color:rgba(51,51,51,1);
+            }
+            .right-head-right {
+              flex: 0 0 auto;
+              font-size:28px;
+              font-weight:500;
+              color:rgba(96,152,227,1);
+            }
+          }
+          .tag-right-base {
+            margin-top: 33px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .tag-right-base-name {
+              font-size:28px;
+              font-weight:500;
+              color:rgba(102,102,102,1);
+            }
+          }
+        }
+      }
+      .ranking-list-tag:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

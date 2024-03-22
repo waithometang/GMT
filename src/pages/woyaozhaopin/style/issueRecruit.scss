@@ -1,0 +1,59 @@
+.issueRecruit {
+  background: #ffffff;
+  overflow: hidden;
+  padding: 0 30px;
+  .input_list_tab {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    padding: 30px 0;
+    .input_list_tab_name {
+      flex: 0 0 auto;
+      font-size:30px;
+      font-weight:500;
+      color:rgba(74,74,74,1);
+      margin-right: 10px;
+      min-width: 130px;
+    }
+    .input_list_tab_input {
+      flex: 1;
+      input{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .input_list_tab_textarea {
+      flex: 1;
+      height: 160px;
+      display: flex;
+      align-items: center;
+      textarea {
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+    .input_list_tab_icon {
+      flex: 0 0 auto;
+      padding-left: 10px;
+      img{
+        width:36px;
+        height:19px;
+      }
+    }
+  }
+  .input_list_tab_start{
+    align-items: flex-start
+  }
+  .tab_but {
+    padding: 36px 0;
+    display: flex;
+  }
+  .affirm {
+    padding: 10px 30px 0 30px;
+    text-align: right;
+    font-size:36px;
+    font-weight:bold;
+    color:rgba(0,146,254,1);
+  }
+}

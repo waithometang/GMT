@@ -1,0 +1,204 @@
+.ewm {
+  width: 100%;
+  min-height: 100%;
+  .ewm_hread {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 28px 0 28px;
+    .ewm_but {
+      padding: 26px 110px;
+      border-radius: 10px;
+      color: #ffffff;
+      background: rgba(101,183,243,1);
+    }
+    .ewm_but_active{
+        border-radius: 10px;
+        color: rgba(101,183,243,1);
+        border: 1px solid #65b7f3;
+        background: #ffffff;
+    }
+  }
+  .ewm_pages {
+    background: #ffffff;
+    box-sizing: border-box;
+    border-bottom: solid 1px rgba(229, 229, 229, 1);
+    .ewm_item {
+      height: 102px;
+      display: flex;
+      align-items: center;
+      border-bottom: solid 1px rgba(229, 229, 229, 1);
+      padding: 0px 26px;
+      &:last-child {
+        border: none;
+      }
+      .ewm-iten-name {
+        flex: 0 0 auto;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        margin-right: 43px;
+      }
+      .ewm-item-input {
+        flex: 1;
+        input {
+          width: 100%;
+          height: 100px;
+          font-size: 28px;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+          outline: none;
+        }
+      }
+      span {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        margin-right: 43px;
+      }
+      input {
+        height: 100px;
+        flex: 1;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        outline: none;
+      }
+      .select {
+        flex: 1;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        outline: none;
+      }
+    }
+    .ewm_redio {
+      .select {
+        .select-tab {
+          display: flex;
+          align-items: center;
+          padding: 20px 0;
+          border-bottom: 1px solid #e5e5e5;
+          i {
+            display: inline-block;
+            flex: 0 0 auto;
+            margin-right: 23px;
+            width: 38px;
+            height: 38px;
+            background: rgba(255, 255, 255, 1);
+            border: 2px solid rgba(220, 220, 220, 1);
+            border-radius: 50%;
+            i {
+              display: inline-block;
+              height: 17px;
+              width: 17px;
+              margin: 9px 7px;
+              background: #40aff6;
+              border-radius: 50%;
+            }
+          }
+          .name-title {
+            flex: 1;
+            .name {
+              font-size: 28px;
+              font-weight: 400;
+              color: rgba(51, 51, 51, 1);
+            }
+            .title {
+              margin-top: 13px;
+              font-size: 24px;
+              font-family: SimHei;
+              font-weight: 400;
+              color: rgba(172, 172, 172, 1);
+            }
+          }
+        }
+      }
+      label {
+        padding: 20px 0;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px rgba(229, 229, 229, 1);
+        &:last-child {
+          border: none;
+        }
+        input {
+          width: 38px;
+          height: 38px;
+          margin-right: 23px;
+        }
+        .bz {
+          font-size: 24px;
+          font-weight: 400;
+          color: rgba(172, 172, 172, 1);
+          margin: 0;
+        }
+      }
+    }
+    .qksm {
+      padding: 20px 0;
+      textarea {
+        height: 100px;
+        width: 100%;
+      }
+    }
+  }
+  .ewm_yuedu {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    a {
+      color: #40aff6;
+    }
+  }
+  .base-ewm_redio {
+    max-width: 690px;
+    margin: 0px auto 18px auto;
+    padding: 0px 29px 0 29px;
+    .base-select {
+      font-size: 28px;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 1);
+      .icon {
+        margin: 0px 20px -10px 20px;
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        background: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(220, 220, 220, 1);
+        border-radius: 50%;
+        i {
+          display: inline-block;
+          height: 17px;
+          width: 17px;
+          margin: 10px 10px;
+          background: #40aff6;
+          border-radius: 50%;
+        }
+      }
+      .text-action {
+        color: #40aff6;
+      }
+    }
+  }
+  .ewm_button {
+    margin: 218px auto 0px auto;
+    width: 630px;
+    height: 80px;
+    background: rgba(64, 175, 246, 1);
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .titleCell{
+    background-color: #f0f2f5;
+    color:rgba(69, 90, 100, 0.6);
+  }
+}

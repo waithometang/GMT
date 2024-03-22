@@ -1,0 +1,32 @@
+.NotificationParticularss {
+  .content-list {
+    .head {
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333333;
+        text-align: left;
+      }
+
+      .head-list {
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 1px solid #eeeeee;
+
+        .list-tab {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+
+  .content {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 44px;
+    text-indent: 2em;
+  }
+}

@@ -1,0 +1,57 @@
+.list_tab {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+
+  .tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(220, 220, 220, 1);
+    border-radius: 20px;
+    padding: 10px 0;
+
+    .name {
+      flex: 1;
+      font-size: 28px;
+      font-weight: bold;
+      color: rgba(180, 180, 180, 1);
+      text-align: center;
+      overflow: hidden;
+      text-overflow: -o-ellipsis-lastline;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+
+    .name_action {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .icon {
+      flex: 0 0 auto;
+      margin-right: 10px;
+      display: flex;
+      align-content: center;
+    }
+  }
+
+  .tab_action {
+    background: #66B8F5;
+  }
+
+  .tab_margin {
+    margin-right: 30px;
+  }
+}
+
+.accomplish {
+  text-align: right;
+  padding: 29px;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 146, 254, 1);
+}

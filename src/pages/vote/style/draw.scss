@@ -1,0 +1,170 @@
+.draw {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url('/static/vote/vote-bj.png') no-repeat;
+  background-size: 100% 100%;
+  .consequence {
+    position: relative;
+    padding-top: 70px;
+    #mycanvas {
+      position: absolute;
+      z-index: 99;
+    }
+    .draw-result {
+      width:450px;
+      height:118px;
+      font-size:30px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      font-weight:bold;
+      color:rgba(0,0,0,1);
+      background: #FFFEFE;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .explain {
+    margin-top: 50px;
+    background: url('/static/vote/vote-bj1.png') no-repeat;
+    background-size: 100% 100%;
+    .text1 {
+      color: #FFFEFE;
+      font-size: 30px;
+      font-weight:500;
+      text-align: center;
+    }
+    .text2 {
+      color: #FEF100;
+      font-size: 50px;
+      font-weight:500;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .phone {
+      width:450px;
+      height:61px;
+      margin: 0 auto;
+      margin-top: 20px;
+      background:rgba(255,255,255,1);
+      border-radius:6px;
+      input {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .draw-but {
+    width:647px;
+    height:88px;
+    background:rgba(250,205,138,1);
+    border-radius:6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(197,26,36,1);
+    margin: 152px auto 0 auto;
+  }
+  .draw-rule {
+    width:647px;
+    min-height:385px;
+    border-radius:6px;
+    background: #D83636;
+    margin: 50px auto 0 auto;
+    padding: 30px 25px;
+    .text {
+      font-size:28px;
+      font-weight:500;
+      color: #FEF100;
+    }
+    .tab {
+      margin-top: 27px;
+      font-size:26px;
+      font-weight:400;
+      color:rgba(246,246,246,1);
+    }
+  }
+}
+.Badluck{
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url('/static/vote/vote-bj.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  .Badluck_img{
+    position: relative;
+    width: 660px;
+    height: 360px;
+    margin: 0 auto;
+    h1{
+      font-size:48px;
+      font-weight:bold;
+      color:rgba(255,255,255,1);
+      position: absolute;
+      z-index: 1;
+      top: 215px;
+      left: 170px;
+      margin: 0;
+    }
+    .zjH1{
+      font-size:39px;
+      top: 218px;
+      left: 141px;
+    }
+      img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+    }
+  }
+  .Badluck_font{
+    margin-top: 86px;
+    text-align: left;
+    padding: 0 50px;
+    text-indent: 2em;
+    p{
+      margin: 0;
+    }
+    span{
+      font-size:26px;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+    }
+  }
+  .Badluck_input{
+    margin-top: 60px;
+    width:647px;
+    height:88px;
+    display: inline-block;
+    input{
+      width:624px;
+      height:88px;
+      padding-left: 23px;
+      border-radius:6px;
+    }
+  }
+  .Badluck_but{
+    margin-top: 90px;
+    div{
+      width:647px;
+      height:88px;
+      background:rgba(250,205,138,1);
+      border-radius:6px;
+      border: none;
+      font-size:30px;
+      font-weight:bold;
+      color:rgba(197,26,36,1);
+      display: inline-block;
+      text-align: center;
+      line-height: 88px;
+    }
+  }
+  .zjl{
+    margin-top: 23px;
+  }
+}

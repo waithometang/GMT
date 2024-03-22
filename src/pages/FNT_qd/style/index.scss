@@ -1,0 +1,129 @@
+.fnt_qd {
+  width: 100%;
+  .button-tab {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    margin-top: 20px;
+    .button-nor {
+      width: 334px;
+      height: 60px;
+      border: 2px solid rgba(255,190,110,1);
+      text-align: center;
+      line-height: 60px;
+      font-weight: 400;
+      color: rgba(255,190,110,1);
+      border-radius: 6px;
+      &.button-nor-margin {
+        margin-right: 22px;
+      }
+      &.on {
+        background-color: rgba(255,190,110,1);
+        color: #ffffff;
+      }
+    }
+  }
+  .serch {
+    height: 80px;
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    background: #ffffff;
+    div{
+      height: 80px;
+      display: flex;
+      align-items: center;
+      background: #f4f4f4;
+      border-radius: 15px 15px 15px 15px;
+      input{
+        border-radius: 15px 15px 15px 15px;
+        flex: 1;
+        border:none;
+        margin-right: 7px;
+        background: #f4f4f4;
+        padding-left: 20px;
+        font-size: 30px;
+      }
+      .imagesss {
+        flex: 0 0 auto;
+        img{
+          height: 45px;
+          width: 45px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+  ul {
+    width: 100%;
+    padding: 0;
+    li {
+      width: 50%;
+      background: rgba(255, 255, 255, 1);
+      float: left;
+      text-align: center;
+      margin-bottom: 20px;
+      .img-check {
+        width: 334px;
+        height: 260px;
+        display: -webkit-inline-box;
+        background-image: url("~/static/FNT_IMAGES/check.png");
+        background-size: 100% 100%;
+        .check {
+          width: 240px;
+          height: 60px;
+          background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(247, 247, 247, 0.1));
+          border-radius: 8px 8px 0px 0px;
+          font-size: 20px;
+          margin-top: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .num {
+            margin-left: 18px;
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+      .title-all {
+        width: 296px;
+        margin: 0 auto;
+        .title {
+          margin-top: 20px;
+          width: 300px;
+          height: 65px;
+          font-size: 30px;
+          color: #282828;
+          font-weight: 500;
+          line-height: 35px;
+          text-align: left;
+          display: -webkit-box;
+          word-break: break-all;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+        .time {
+          color: #b4b4b4;
+          font-size: 22px;
+          font-weight: 400;
+          margin-top: 15px;
+        }
+        .button {
+          margin: 0 auto;
+          width: 295px;
+          height: 56px;
+          background-color: rgba(255,190,110,1);
+          border: 0;
+          font-size: 28px;
+          font-weight: 500;
+          color: #ffffff;
+          border-radius: 8px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

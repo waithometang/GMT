@@ -1,0 +1,357 @@
+.LeagueMember-dy {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background: #FAFAFA;
+  .head {
+    height: 295px;
+    width: 100%;
+    background: #ffffff;
+    .head-content {
+      position: relative;
+      top: 30px;
+      width:690px;
+      height:224px;
+      margin: 0 30px;
+      background: url('/images/backedrop@2x.png') no-repeat;
+      background-size: 100% 100%;
+      border-radius:14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .head-top{
+        display: flex;
+        align-items: center;
+        .head-icon{
+          width:120px;
+          height:120px;
+          margin: 0 20px 0 33px;
+          flex: 0 0 auto;
+          img{
+            width:120px;
+            height:120px;
+            border-radius: 8px;
+          }
+        }
+        .head-title {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .name {
+            font-size:32px;
+            font-weight:500;
+            color:rgba(74,74,74,1);
+          }
+          .duty {
+            margin-top: 26px;
+            font-size:26px;
+            font-weight:400;
+            color:rgba(120,120,120,1);
+          }
+        } 
+      }
+      .head-images {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: 31px;
+        .min-images {
+          flex: 0 0 auto;
+          margin-right: 55px;
+          font-size:22px;
+          font-weight:400;
+          color:rgba(180,180,180,1);
+          display: flex;
+          justify-content: flex-start;
+          .min-icon{
+            width:25px;
+            height:26px;
+            flex: 0 0 auto;
+            margin-right: 10px;
+            img{
+              width:25px;
+              height:26px;
+            }
+          }
+        }
+        .min-images-action {
+          font-size:24px;
+          font-weight:400;
+          color:rgba(120,120,120,1);
+        }
+      }
+    }
+  }
+  .interval{
+    margin-top: 10px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid;
+    border-color: #f4f4f4;
+    div{
+      height: 30px;
+      width: 8px;
+      background: #379dea;
+      border-radius: 5px;
+      margin-right: 22px;
+      margin-left: 40px;
+    }
+    .more{
+      float: right;
+      font-size: 28px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color: #999999;
+      width: auto;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      img{
+        height: 30px;
+      }
+    }
+  }
+  .list{
+    position: absolute;
+    top: 342px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    background: #ffffff;
+    .lits-tab {
+      padding: 10px 0px;
+      margin: 0 40px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px dotted  #cccccc;
+      .tab-left {
+        float: right;
+        flex: 1;
+        .left-title {
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 1;
+          -webkit-box-orient: vertical;
+          font-size: 32px;
+          color: rgba(0,0,0,1);
+        }
+        .left-content {
+          margin-top: 10px;
+          font-size:30px;
+          font-weight:400;
+          color:rgba(74,74,74,1);
+        }
+        .left-date {
+          margin-top: 10px;
+          font-size:26px;
+          font-family:PingFang-SC-Regular;
+          font-weight:400;
+          color:rgba(74,74,74,1);
+        }
+        .left-icon{
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          .icon-number {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size:22px;
+            font-weight:400;
+            color:rgba(180,180,180,1);
+            img {
+              width:26px;
+              height:26px;
+              margin-right: 10px;
+              flex: 0 0 26px;
+            }
+          }
+        }
+      }
+      .tab-right{
+        float: left;
+        width:174px;
+        height:134px;
+        padding-left: 10px;
+        flex: 0 0 174px;
+        display: flex;
+        align-items: center;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  // margin: 0;
+  // padding: 0;
+  // background: #F4F4F4;
+  // position: absolute;
+  // top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  // overflow-x: hidden;
+  // .hread {
+  //   width: 750px;
+  //   height: 400px;
+  //   margin-bottom: 30px;
+  //   background: url("/images/secondLevelPages/liancun-bg1.jpg");
+  //   background-size: 100% 100%;
+  //   .hread-main {
+  //     background: url("/images/secondLevelPages/liancun-bg.png");
+  //     background-size: 100% 100%;
+  //     width: 720px;
+  //     height: 300px;
+  //     position: relative;
+  //     left: 15px;
+  //     top: 50px;
+  //     border-radius: 30px;
+  //     display: flex;
+  //     align-items: center;
+  //     .hread-icon {
+  //       height: 180px;
+  //       width: 140px;
+  //       flex: 0 0 140px;
+  //       margin: 0 40px;
+  //       img{
+  //         height: 180px;
+  //         width: 140px;
+  //       }
+  //     }
+  //     .hread-content{
+  //       flex:  1;
+  //       margin-right: 20px;
+  //       display: flex;
+  //       flex-direction: column;
+  //       .name {
+  //         font-size: 28px;
+  //         font-family: MicrosoftYaHei;
+  //         font-weight: bold;
+  //         color: rgba(51, 51, 51, 1);
+  //       }
+  //       .title {
+  //         margin-top: 10px;
+  //         font-size: 24px;
+  //         font-family: MicrosoftYaHei;
+  //         font-weight: bold;
+  //         color: rgba(102, 102, 102, 1);
+  //         overflow: hidden;
+  //         text-overflow: ellipsis;
+  //         display:-webkit-box; //作为弹性伸缩盒子模型显示。
+  //         -webkit-box-orient:vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+  //         -webkit-line-clamp:1; //显示的行
+  //       }
+  //       .tab-li{
+  //         margin-top: 10px;
+  //         display: flex;
+  //         align-items: center;
+  //         justify-items: flex-start;
+  //         margin-right: 80px;
+  //         .li-content{
+  //           flex: 1;
+  //           display: flex;
+  //           align-items: center;
+  //           font-size: 24px;
+  //           font-family: MicrosoftYaHei;
+  //           color: rgba(102, 102, 102, 1);
+  //           .li-icon{
+  //             height: 40px;
+  //             width: 40px;
+  //             margin-right: 5px;
+  //             flex: 0 0 40px;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // .pages {
+  //   position: absolute;
+  //   top: 400px;
+  //   width: 100%;
+  //   bottom: 0px;
+  //   background: none;
+  //   .list {
+  //     background: #ffffff;
+  //     border-bottom: 1px solid;
+  //     border-color: rgba(240, 242, 246, 1);
+  //     .list-tab {
+  //       display: flex;
+  //       align-items: center;
+  //       padding: 20px;
+  //       .tab-icon {
+  //         width: 200px;
+  //         height: 135px;
+  //         margin-right: 20px;
+  //         flex: 0 0 200px;
+  //         img{
+  //           height: 135px;
+  //           width: 200px;
+  //         }
+  //       }
+  //       .tab-content {
+  //         flex: 1;
+  //         display: flex;
+  //         flex-direction: column;
+  //         .name {
+  //           font-size: 28px;
+  //           font-family: MicrosoftYaHei;
+  //           font-weight: bold;
+  //           color: rgba(51, 51, 51, 1);
+  //           overflow: hidden;
+  //           text-overflow: ellipsis;
+  //           display:-webkit-box; //作为弹性伸缩盒子模型显示。
+  //           -webkit-box-orient:vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+  //           -webkit-line-clamp:1; //显示的行
+  //         }
+  //         .title {
+  //           margin-top: 10px;
+  //           font-size: 24px;
+  //           font-family: MicrosoftYaHei;
+  //           font-weight: 200;
+  //           color: rgba(51, 51, 51, 1);
+  //           overflow: hidden;
+  //           text-overflow: ellipsis;
+  //           display:-webkit-box; //作为弹性伸缩盒子模型显示。
+  //           -webkit-box-orient:vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+  //           -webkit-line-clamp:1; //显示的行
+  //         }
+  //         .tab-iamges {
+  //           display: flex;
+  //           align-items: center;
+  //           margin-top: 10px;
+  //           .iamges-title {
+  //             flex: 1;
+  //             display: flex;
+  //             align-items: center;
+  //             font-size: 26px;
+  //             color: rgba(153,153,153,1);
+  //             text-align: left;
+  //             .images {
+  //               width:26px;
+  //               height:26px;
+  //             }
+  //           }
+  //           .time{
+  //             flex: 0 0 auto;
+  //             justify-content:flex-end;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}

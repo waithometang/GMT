@@ -1,0 +1,33 @@
+.PartyReport_index {
+  background: #FFFFFF;
+  font-size: 28px;
+
+  .PartyReport_select {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .PartyReport_select_list {
+      width: 338px;
+      height: 80px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 10px;
+      font-weight: bold;
+      color: rgba(101, 183, 243, 1);
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(101, 183, 243, 1);
+    }
+
+    .target {
+      color: rgba(255, 255, 255, 1);
+      background: rgba(101, 183, 243, 1);
+    }
+  }
+
+  .PartyReport_main {
+    margin: 10px;
+  }
+}

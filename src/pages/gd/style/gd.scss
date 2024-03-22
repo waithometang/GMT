@@ -1,0 +1,42 @@
+.gd {
+  background: #ffffff;
+  .page-content {
+    padding: 0 30px;
+    padding-bottom: 42px;
+    .page-content-tab {
+      .tab-head {
+        padding-top: 42px;
+        text-align: left;
+        font-size:30px;
+        font-weight:bold;
+        color:rgba(37,37,37,1);
+      }
+      .tab-base {
+        padding-bottom: 20px;
+        ul {
+          li {
+            float: left;
+            width: 25%;
+            margin-top: 30px;
+            .tab-base-icon {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              img {
+                width: 60px;
+                height: 56px;
+              }
+            }
+            .tab-base-name {
+              margin-top: 15px;
+              text-align: center;
+              font-size:26px;
+              font-weight:500;
+              color:rgba(37,37,37,1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

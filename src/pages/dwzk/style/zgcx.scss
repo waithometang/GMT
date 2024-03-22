@@ -1,0 +1,74 @@
+.zgcx {
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+
+  .head {
+    padding: 30px;
+    background: #ffffff;
+  }
+
+  .zgcxPages {
+    margin-top: 15vh;
+    background: #ffffff;
+    text-align: center;
+
+    img {
+      margin-top: 53px;
+      width: 87px;
+      height: 87px;
+    }
+
+    p {
+      font-size: 32px;
+      font-weight: normal;
+      color: rgba(16, 16, 16, 1);
+    }
+
+    span {
+      font-size: 28px;
+      color: #898989;
+    }
+
+    .Item {
+      height: 105px;
+      margin: 0 30px;
+      border-bottom: 1px solid rgba(238, 238, 238, 1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 28px;
+      color: #898989;
+    }
+
+    .floot-but {
+      position: absolute;
+      bottom: 100px;
+
+      .base {
+        background: #ffffff;
+        margin-top: 17px;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .base-tab {
+          flex: 0 0 auto;
+          width: 320px;
+        }
+
+        .width {
+          width: 690px;
+        }
+
+        .base-but {
+          padding: 45px;
+        }
+      }
+    }
+  }
+}

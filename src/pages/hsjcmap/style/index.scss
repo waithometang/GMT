@@ -1,0 +1,224 @@
+.container {
+  height: 100vh;
+
+  .map {
+    width: 100%;
+    height: calc(100vh - 260px);
+    position: absolute;
+    z-index: 0;
+  }
+
+  .content {
+    width: 100%;
+    // height: 100%;
+    min-height: 360px;
+    max-height: 740px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+
+    .head {
+      width: 100%;
+      height: 50px;
+      background-color: #3399FF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 25px;
+        height: 13px;
+      }
+    }
+
+    .serch {
+      height: 80px;
+      border-bottom: 1px solid;
+      border-color: #ffffff;
+      padding: 20px 20px 0 20px;
+      background: #ffffff;
+
+      div {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background: #f4f4f4;
+        border-radius: 15px 15px 15px 15px;
+
+        input {
+          border-radius: 15px 15px 15px 15px;
+          flex: 1;
+          border: none;
+          margin-right: 7px;
+          background: #f4f4f4;
+          padding-left: 20px;
+          font-size: 30px;
+        }
+
+        .imagesss {
+          flex: 0 0 auto;
+
+          img {
+            height: 45px;
+            width: 45px;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+
+    .aed-list {
+      height: calc(100% - 130px);
+      min-height: 210px;
+      max-height: 580px;
+      overflow-y: scroll;
+
+      .aed-ul {
+        width: 100%;
+
+        .aed-li {
+          display: flex;
+          justify-content: space-between;
+          margin: 40px 40px 0 35px;
+          padding-bottom: 30px;
+          border-bottom: 1px solid #CCCCCC;
+
+          .aed-information {
+            flex: 4;
+
+            p {
+              margin: 0;
+              color: #333333;
+              font-weight: 400;
+            }
+
+            .aed-name {
+              font-size: 40px;
+              padding-bottom: 16px;
+            }
+
+            .aed-address {
+              font-size: 28px;
+              padding-bottom: 20px;
+            }
+
+            .aed-phone {
+              font-size: 28px;
+              display: flex;
+              align-items: center;
+
+              .blue {
+                color: #3399FF;
+                padding-right: 15px;
+              }
+
+              img {
+                width: 31px;
+                height: 24px;
+                padding-left: 16px;
+                padding-right: 13px;
+              }
+            }
+          }
+
+          .aed-btn {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+
+            img {
+              width: 64px;
+              height: 64px;
+            }
+
+            span {
+              font-size: 24px;
+              font-weight: 400;
+              color: #3399FF;
+              line-height: 48px;
+            }
+          }
+        }
+
+        .aed-li:last-child {
+          border: none;
+        }
+      }
+
+      .no-aed {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 58px;
+          height: 60px;
+          margin-bottom: 17px;
+        }
+
+        span {
+          font-size: 28px;
+          font-weight: 400;
+          color: #D6D6D6;
+        }
+      }
+    }
+
+    .location {
+      position: absolute;
+      right: 15px;
+      top: -90px;
+      background-color: #fff;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+
+    .switch {
+      position: absolute;
+      left: 15px;
+      top: -80px;
+      width: 250px;
+      height: 64px;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0px 0px 6px 0px rgba(51, 51, 51, 0.1);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 31px;
+        height: 31px;
+        padding-right: 10px;
+      }
+
+      span {
+        font-size: 28px;
+        font-weight: 400;
+        color: #3399FF;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .btn-explain {
+    position: absolute;
+    top: 29px;
+    left: 30px;
+
+    .van-button {
+      margin-right: 14px;
+    }
+  }
+
+}

@@ -1,0 +1,119 @@
+.dreams_def {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  padding-top: 60px;
+  .hread_title {
+    display: flex;
+    background: #ffffff;
+    padding: 0px 30px;
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 8px;
+    }
+    .name_time {
+      margin-left: 20px;
+      .name {
+        font-size: 34px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: rgba(40, 40, 40, 1);
+        margin-bottom: 20px;
+      }
+      .time {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(180, 180, 180, 1);
+        display: inline-flex;
+        align-items: center;
+        margin-right: 68px;
+          img{
+            width:26px;
+            height:26px;
+            margin-right: 12px;
+          }
+      }
+    }
+  }
+  .xy_cont {
+    padding: 50px 30px;
+    background: #ffffff;
+    .contet {
+      margin: 30px 0 0 0;
+      text-indent: 2em;
+    }
+    .images{
+      margin-top: 30px;
+      list-style: none;
+      padding: 0;
+      overflow: hidden;
+      li{
+        width: 165px;
+        background: #cccccc;
+        height: 200px;
+        margin-right: 10px;
+        float: left;
+        margin-bottom: 10px;
+        &:nth-child(4n){
+          margin-right: 0;
+        }
+      }
+    }
+    .norl {
+      width: 100%;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 500;
+      color: rgba(120, 120, 120, 1);
+      margin-top: 60px;
+      .norl_but {
+        display: inline-block;
+        width: 150px;
+        height: 56px;
+        background: rgba(255, 156, 133, 1);
+        border-radius: 8px;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        line-height: 56px;
+        margin-top: 50px;
+      }
+    }
+    .yesrl {
+      margin-top: 30px;
+      div {
+        height: 100px;
+        width: 100%;
+        border-bottom: 1px solid rgba(230, 230, 230, 1);
+        font-size: 30px;
+        font-weight: 500;
+        color: rgba(120, 120, 120, 1);
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .hr {
+    width: 750px;
+    height: 10px;
+    background: rgba(247, 247, 247, 1);
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(40, 40, 40, 1);
+
+    div {
+      width: 8px;
+      height: 26px;
+      background: rgba(252, 88, 65, 1);
+      margin-right: 16px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.appointment-submit {
+  width: 600px;
+  height: 90px;
+  padding: 70px;
+  margin-top: 30px;
+  span {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+  }
+}
+.tips{
+  padding:25px 20px 0px 20px;
+  color: #ee0a24;
+  font-size: 24px;
+  text-align: left;
+}
+.list-li {
+  border-bottom: 1px solid #cccccc;
+  .list-li-content {
+    font-size: 28px;
+    color: #898989 !important;
+  }
+  .dowm-img {
+    width: 26px;
+    height: 14px;
+    padding-right: 20px;
+    flex: 0 0 auto;
+  }
+}
+.line{
+  background-color:rgb(247, 248, 250);
+  height: 60px;
+  margin: 0;
+  padding-left: 20px;
+  color: rgba(69, 90, 100, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 60px;
+}

@@ -1,0 +1,146 @@
+.jrdk {
+  .middle {
+		background: #EFEFEF;
+		padding: 10px 0;
+		.select {
+			padding: 0 30px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.select-left {
+				flex: 0 0 auto;
+				font-size:28px;
+				font-weight:500;
+				color:rgba(51,51,51,1);
+			}
+			.select-right {
+				flex: 0 0 auto;
+				font-size:26px;
+				font-weight:500;
+				color:rgba(51,51,51,1);
+				min-width:151px;
+				height:50px;
+				// background:#EEEEEE;
+				background: #ffffff;
+				border-radius:10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				i {
+					display: inline-block;
+					width:28px;
+					height:16px;
+					background:rgba(193,193,193,1);
+					margin-left: 32px;
+					background: url('/static/c@2x.png') no-repeat;
+					background-size: 100% 100%;
+				}
+			}
+		}
+		.info {
+			padding: 0 30px;
+			margin-top: 10px;
+			font-size:26px;
+			font-weight:500;
+			color:rgba(87,87,87,1);
+		}
+	}
+	.base {
+		position: absolute;
+		top: 220px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		.base-content {
+			position: absolute;
+			top: 0;
+			bottom: 100px;
+			left: 0;
+			right: 0;
+			overflow-y: scroll;
+			.list-tag {
+				display: flex;
+				align-items: center;
+				margin: 0 30px;
+				background:rgba(255,255,255,1);
+				border-bottom:1px solid rgba(238,238,238,1);
+				.list-tag-tab {
+					padding: 20px 0;
+					text-align: center;
+					flex: 1;
+					font-size:26px;
+					font-weight:400;
+					color:rgba(51,51,51,1);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					span {
+						display: inline-block;
+						background:#E5E2E5;
+						border-radius:21px;
+						padding: 3px 8px;
+					}
+					.span-action {
+						background: #DCEEFA;
+					}
+				}
+				.list-tag-tab-zc {
+					color:rgba(6,143,241,1);
+				}
+				.list-tag-tab-yc {
+					color:rgba(205,51,51,1);
+				}
+			}
+			.list-tag-action {
+				background: #EEEEEE;
+			}
+			.content-tag {
+				padding: 24px 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.content-tag-name {
+					flex: 1;
+					text-align: center;
+					font-size:28px;
+					font-weight:400;
+					color:rgba(41,41,41,1);
+				}
+				.content-tag-name-yc {
+					color:rgba(248,158,18,1);
+				}
+				.content-tag-name-sh {
+					color:rgba(6,143,241,1);
+				}
+			}
+			.content-tag-action {
+				background: #EEEEEE;
+			}
+		}
+		.base-but {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.but-tag {
+				width:630px;
+				height:80px;
+				background:rgba(6,143,241,1);
+				border-radius:10px;
+				font-size:30px;
+				font-weight:bold;
+				color:rgba(255,255,255,1);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.ysb{
+				background:#b4b4b4;
+			}
+		}
+	}
+}

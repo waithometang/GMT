@@ -1,0 +1,86 @@
+.container {
+    background-color: #F6F6F6;
+    .headImg {
+        background-color: #fff;
+        padding: 30px;
+        width: 690px;
+        height: 350px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .bd {
+        background-color: #F6F6F6;
+        height: 14px;
+    }
+    .search {
+        margin-top: 26px;
+        margin-bottom: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        position: relative;
+        .latest {
+            font-size: 32px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: rgba(51, 51, 51, 1);
+            &::before {
+                display: block;
+                content: '';
+                width: 34px;
+                height: 8px;
+                background: rgba(255, 219, 37, 1);
+                border-radius: 4px;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .search_val {
+            display: flex;
+            align-items: center;
+            input {
+                width: 380px;
+                // height: 58px;
+                box-sizing: border-box;
+                background: rgba(246, 246, 246, 1);
+                border-radius: 29px;
+                padding-left: 24px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                &::placeholder {
+                    font-size: 28px;
+                    font-family: PingFang SC;
+                    font-weight: 400;
+                    color: rgba(163, 163, 163, 1);
+                }
+            }
+            .btn {
+                display: flex;
+                justify-content: center;;
+                align-items: center;
+                img {
+                    width: 30px;
+                    height: 32px;
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+    .back {
+        position: fixed;
+        right: 28px;
+        bottom: 100px;
+        z-index: 999;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
+
+/deep/ .serch[data-v-6c2e9354] {
+    padding: 0;
+}

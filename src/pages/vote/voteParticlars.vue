@@ -1,0 +1,119 @@
+<template>
+  <div class="voteParticlars">
+    <voteHead :images="listData.dbtp" :state="2" :title="listData.hdby" ref="voteHead"/>
+    <div class="page-content">
+      <div class="info">{{listData.zpmc}}</div>
+      <div class="logo" @click="lookOver(listData.zptp)">
+        <img :src="listData.zptp" alt="">
+      </div>
+      <p class="text">单击图片可查看大图喔</p>
+      <div class="describe" v-html="details"></div>
+      <div class="info-tab">
+        <div class="tab">
+          <div class="number">{{listData.tps}}</div>
+          <div class="name">当前票</div>
+        </div>
+        <div class="tab tab-border">
+          <div class="number">{{listData.pm}}</div>
+          <div class="name">排名</div>
+        </div>
+        <div class="tab">
+          <div class="number">{{listData.jlsym}}</div>
+          <div class="name">距上一名</div>
+        </div>
+      </div>
+    </div>
+    <div class="but" @click="vote">
+      <i class="icon"></i>投票
+    </div>
+    <div class="but but1" @click="goBack ">
+      <i class="icon icon1"></i>返回
+    </div>
+    <div class="toast">由佛山市高明区政务服务数据管理局提供技术支持</div>
+  </div>
+</template>
+
+<script>
+import voteHead from './component/voteHead'
+import { tp, tpnrxx } from  '@/api/secondLevelPage'
+import { WaChatrequireShare } from '@/js/WaChatrequireShare'
+import {mapActions} from "vuex"
+import { WcChatPreviewImage } from '@/js/WeChatpreviewImage'
+
+export default {
+  data () {
+    return {
+      listData: {zpjj:''},
+    }
+  },
+  components: {
+    voteHead
+  },
+  computed: {
+    id () {
+      return this.$route.params.id
+    },
+    messageBut () {
+      return this.$store.state.messageBut
+    },
+    details () {
+      return this.listData.zpjj.replace(/\n/g,'<br/>&emsp;&emsp;')
+    }
+  },
+  created () {
+    this.gettpnrxx()
+  },
+  methods: {
+    ...mapActions(['voteMessage']),
+    goBack () {
+      this.$router.go(-1)
+    },
+    lookOver (item) {
+      let url = `${window.location.protocol}//${window.location.host}${item}`
+      console.log(url)
+      WcChatPreviewImage(url, [url])
+    },
+    vote () {
+      let that = this
+      this.voteMessage({
+        id: this.id,
+        success: function () {
+          that.listData.tps = that.listData.tps + that.$store.state.increaseNumber
+        }
+      })
+    },
+    gettpnrxx () {
+      tpnrxx({
+        id: this.id
+      }).then (rps => {
+        if (rps.data.success) {
+          this.listData = rps.data.content
+          this.$store.commit('SetvoteHasTj',this.listData.tpcj)
+          this.waChatShara()
+        } else {
+          this.changtoast(rps.data.message, 'error')
+        }
+      })
+    },
+    waChatShara () {
+      let url = this.listData.dbtp
+      let title = `我是${this.listData.tpbh}${this.listData.xm},正在参加${this.listData.hdmc}`
+      WaChatrequireShare(title, this.listData.hdxq, `voteParticlars/${this.id}`, url)
+    }
+  },
+  beforeRouteEnter (to, from, next) {
+    next(vm => {
+      vm.$store.commit('SetbuttomTab', 1)
+    })
+  },
+  beforeRouteLeave (to, from, next) {
+    this.$refs.voteHead.clos()
+    this.$store.commit('SetmessageBut', false)
+    this.$store.commit('SetvoteMessage', false)
+    next()
+  }
+}
+</script>
+<style lang='scss' scoped>
+@import './style/voteParticlars.scss';
+</style>

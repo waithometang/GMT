@@ -1,0 +1,60 @@
+.particulars {
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  background: #f2f2f2;
+  .info {
+    margin: 14px auto 0 auto;
+    width:691px;
+    background: #ffffff;
+    padding-top: 20px;
+    .info-tab {
+      display: flex;
+      align-items: flex-start;
+      padding-bottom: 20px;
+      padding-left: 16px;
+      font-size:26px;
+      font-weight:500;
+      color:rgba(137,137,137,1);
+      .info-tab-icon{
+        flex: 0 0 auto;
+        width:26px;
+        height:26px;
+        background: url('/static/vote/shijian.png') no-repeat;
+        background-size: 100% 100%;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+      span {
+        color: #73C6F8;
+      }
+    }
+  }
+  .content {
+    margin: 16px auto 0 auto;
+    width:691px;
+    background:rgba(255,255,255,1);
+    border-radius:3px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    p{
+      text-indent: 4vw;
+      padding: 0 24px;
+      font-size:26px;
+      line-height: 45px;
+      font-weight:500;
+      color:rgba(137,137,137,1);
+      margin: 0;
+    }
+  }
+  .tost {
+    margin-top: 20px;
+    padding: 22px 0;
+    text-align: center;
+    font-size:26px;
+    font-weight:500;
+    color:rgba(184,184,184,1);
+  }
+}

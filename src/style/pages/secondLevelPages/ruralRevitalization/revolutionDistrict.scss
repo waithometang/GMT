@@ -1,0 +1,171 @@
+.revolutionDistrict{
+  position: relative;
+  overflow: hidden;
+  background: #F4F4F4;
+  .haedIcon {
+    height: 304px;
+    width: 100%;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .content{
+    .MyApplication{
+      height: 98px;
+      width: 100%;
+      background: #FFFFFFFF;
+      display: flex;
+      .icon {
+        height: 98px;
+        width: 70px;
+        img{
+          height: 36px;
+          width: 28px;
+          margin: 31px 20px 31px 22px;
+        }
+      }
+      .name{
+        height: 98px;
+        width: 210px;
+        text-align: left;
+        line-height: 98px;
+        font-size: 31px;
+        color: #333333;
+      }
+      .guideIcon{
+        width: 20px;
+        height: 98px;
+        margin-left: 426px;
+        margin-right: 22px;
+        img{
+          height: 35px;
+          width: 100%;
+          margin: 31px 0;
+        }
+      }
+    }
+    .GroupProject{
+      margin-top: 24px;
+      background: #FFFFFFFF;
+      .iconName{
+        height: 67px;
+        width: 100%;
+        border-bottom: 1px solid #F0F2F6;
+        display: flex;
+        .icon{
+          height: 28px;
+          width: 4px;
+          background: #1882D6;
+          border: 1px;
+          margin: 20px 22px 19px 19px;
+        }
+        .name{
+          height: 67px;
+          width: 100%;
+          text-align: left;
+          line-height: 67px;
+          color: #656565;
+          font-size: 28px;
+        }
+      }
+      .logoName{
+        width: 100%;
+        ul{
+          list-style: none;
+          margin: 0px;
+          padding: 0px;
+          overflow: hidden;
+          zoom: 1;
+          li{
+            float: left;
+            height: 190px;
+            width: 187px;
+            .logo{
+              height: 100px;
+              width: 100px;
+              margin: 24px 37px 16px 50px;
+              img{
+                height: 100%;
+                width: 100%;
+              }
+            }
+            .name{
+              width: 100%;
+              height: 26px;
+              margin-bottom: 24px;
+              font-size: 28px;
+              color: #009999;
+              text-align: center;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+    }
+    .NoticeBulletin{
+      margin-top: 24px;
+      background: #FFFFFFFF;
+      .iconName{
+        height: 67px;
+        width: 100%;
+        border-bottom: 1px solid #F0F2F6;
+        display: flex;
+        .icon{
+          height: 28px;
+          width: 4px;
+          background: #1882D6;
+          border: 1px;
+          margin: 20px 22px 19px 19px;
+        }
+        .name{
+          height: 76px;
+          width: 100%;
+          text-align: left;
+          line-height: 76px;
+          color: #656565;
+          font-size: 28px;
+        }
+      }
+      .titmeimgaes{
+        width: 100%;
+        height: 147px;
+        display: flex;
+        .imgaes{
+          height: 147px;
+          width: 145px;
+          img{
+            height: 100px;
+            width: 100px;
+            margin: 23px 23px 24px 22px;
+          }
+        }
+        .titleTime{
+          width: 100%;
+          height: 147px;
+          .title {
+            height: 30px;
+            width: 100%;
+            margin: 33px 0 31px 0;
+            font-size: 30px;
+            color: #333333;
+            text-align: left;
+            line-height: 30px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          .time{
+            height: 22px;
+            width: 100%;
+            margin-bottom: 31px;
+            font-size: 24px;
+            color: #999999;
+            text-align: left;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}

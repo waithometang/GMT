@@ -1,0 +1,42 @@
+.smrz {
+  min-height: 100vh;
+  background:rgba(247,247,247,1);
+  overflow: hidden;
+  .input_list {
+    padding: 30px;
+    background: #ffffff;
+    .input_tab {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #cccccc;
+      .input_tab_name {
+        flex: 0 0 auto;
+        min-width: 100px;
+        margin-right: 10px;
+        font-size:30px;
+        font-family:PingFang SC;
+        font-weight:500;
+        color:rgba(39,40,40,1);
+      }
+      .input_tab_inpu {
+        flex: 1;
+        input {
+          height: 110px;
+          width: 100%;
+        }
+      }
+      .input_tab_but {
+        width:40px;
+        height:33px;
+        margin-left: 10px;
+        img{
+          width:40px;
+          height:33px;
+        }
+      }
+    }
+  }
+  .but_tab {
+    padding: 150px 30px 0 30px;
+  }
+}

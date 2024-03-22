@@ -1,0 +1,35 @@
+.serve_ewm{
+  background: #ffffff;
+  .topBut{
+    margin: 30px;
+    text-align: center;
+    background-color: #3296EA;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  hr{
+    height: 30px;
+    width: 100%;
+    background: #F5F5F5;
+    border: none;
+  }
+  .footEwm{
+    .footEwm_title{
+      margin: 30px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .footEwm_list{
+      border: 1px #cccccc dashed ;
+      padding: 50px 0;
+      text-align: center;
+      margin: 0 30px;
+      font-size: 28px;
+      color: #cccccc;
+
+    }
+  }
+}

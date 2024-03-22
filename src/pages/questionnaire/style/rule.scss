@@ -1,0 +1,62 @@
+.rule {
+  width: 100%;
+  .rule-pages {
+    background: #ffffff;
+    padding: 30px;
+    margin: 0 30px;
+    border-radius: 10px; 
+    .rule-title {
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: rgba(85, 85, 85, 1);
+      margin: 0;
+    }
+    .rule-hint {
+      margin: 30px 0;
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      color: rgba(85, 85, 85, 1);
+      i {
+        width: 8px;
+        height: 28px;
+        background: rgba(100, 164, 47, 1);
+        border-radius: 2px 3px 3px 3px;
+        margin-right: 20px;
+        display: inline-block;
+      }
+    }
+    .rule-main {
+      margin: 0;
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      margin-left: 28px;
+      line-height: 50px;
+    }
+    .blue {
+      color: #0099ff;
+    }
+    .red {
+      color: #ff3333;
+    }
+    .marign-top {
+      margin-top: 50px;
+    }
+  }
+  .button {
+    margin: 50px 30px;
+    width: 690px;
+    height: 100px;
+    background: rgba(128, 180, 92, 1);
+    box-shadow: 0px 6px 0px 0px rgba(109, 164, 64, 0.21);
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 100px;
+  }
+}

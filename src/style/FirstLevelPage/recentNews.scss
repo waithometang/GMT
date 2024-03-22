@@ -1,0 +1,169 @@
+.recentNews{
+  .hread_content {
+  .hread-title{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 0px 15px 28px;
+    border-bottom: 1px solid;
+    border-color: #f4f4f4;
+    margin:20px 0px 0px 0px;
+     div{
+       height: 30px;
+       width: 8px;
+       background: #379dea;
+       border-radius: 5px;
+       margin-right: 22px;
+     }
+     .more{
+      float: right;
+      font-size: 28px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color: #999999;
+      width: auto;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+        img{
+          height: 30px;
+        }
+     }
+     .more:active{
+       background: #cccccc;
+     }
+  }
+  .content {
+    background: #ffffff;
+    border-bottom: 1px dotted  #cccccc;
+    &:last-child{
+      border: none;
+    }
+    .auto {
+      height: 174px;
+      width: 699px;
+      margin: 0 28px 0 23px;
+      .fl {
+        padding-top: 20px;
+        width: 487px;
+        float: left;
+        .title {
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          /*! autoprefixer: off */
+          -webkit-box-orient: vertical;
+          /* autoprefixer: on */
+          line-height: 45px;
+          height: 90px;
+          span {
+            width: auto;
+            padding: 0 5px;
+            height: 50px;
+            background: rgba(253, 233, 218, 1);
+            border-radius: 10px;
+            font-size: 28px;
+            font-family: PingFang-SC-Medium;
+            font-weight: 500;
+            color: rgba(255, 143, 3, 1);
+            line-height: 50px;
+            text-align: center;
+          }
+          font-size: 28px;
+          font-family: PingFang-SC-Heavy;
+          font-weight: 800;
+          color: rgba(51, 51, 51, 1);
+        } 
+        .timeNumber {
+          display: flex;
+          height: 61px;
+          .time {
+            width: 50%;
+            display: flex;
+            line-height: 61px;
+            font-size: 20px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            .icon {
+              width: 26px;
+              margin-right: 10px;
+              img {
+                height: 26px;
+                width: 26px;
+                margin-top: 17px;
+              }
+            }
+          }
+          .number {
+            width: 50%;
+            display: flex;
+            line-height: 61px;
+            font-size: 20px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            .icon {
+              width: 26px;
+              margin-right: 10px;
+              img {
+                height: 26px;
+                width: 26px;
+                margin-top: 17px;
+              }
+            }
+          }
+        }
+        .time {
+          height: 61px;
+          .icons{
+            float: left;
+            height: 61px;
+            width: 26px;
+            margin-right: 11px;
+            img{
+              margin-top: 17px;
+              margin-bottom: 19px;  
+              width: 26px;
+              height: 26px;
+            }
+          }
+          .times{
+            height: 61px;
+            line-height: 61px;
+            font-size: 20px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+          }
+        }
+      }
+      .ft {
+        float: right;
+        width: 174px;
+        height: 134px;
+        margin-top: 20px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .notData {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+      font-size: 30px;
+    }
+  }
+}
+}
+.recentNews_action {
+  margin-bottom: 0;
+}

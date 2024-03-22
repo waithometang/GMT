@@ -1,0 +1,41 @@
+// 全局样式规范
+
+// 字体大小规范
+.default-font-size-s { // 全局默认一号字体 // 基于750屏幕 视窗单位大小 1vw = 7.5px
+  font-size: 30px !important; // 4vw
+}
+
+.default-font-size-m { // 全局二号字体
+  font-size: 28px !important;
+}  
+
+.default-font-size-l { // 全局三号字体
+  font-size: 32px !important;
+}
+
+// 适配不同屏幕大小字体大小规范
+@media screen and (device-width: 320px) { // 屏幕宽度350px 1vw = 6.4px
+  .default-font-size-s {
+    font-size: 4.69vw !important;
+  }
+  .default-font-size-m {
+    font-size: 4.375vw !important;
+  }
+  
+  .default-font-size-l {
+    font-size: 5vw !important;
+  }
+}
+
+@media screen and (device-width: 414px) {  // 屏幕宽度414 1vw=8.28px
+  .default-font-size-s {
+    font-size: 3.623vw !important;
+  }
+  .default-font-size-m {
+    font-size: 3.381vw !important;
+  }
+  
+  .default-font-size-l {
+    font-size: 3.864vw !important;
+  }
+}

@@ -1,0 +1,215 @@
+.container {
+  background-color: #F6F7F9;
+}
+
+.container .top {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.container .top .cover {
+  width: 690px;
+  height: 200px;
+  background-color: #cccccc;
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .top .reload {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 690px;
+  height: 200px;
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(22, 22, 22, 0.5);
+  border-radius: 10px;
+}
+
+.container .top .coverImg {
+  width: 100%;
+}
+
+.container .top .coverImg img {
+  width: 100%;
+  height: 200px;
+}
+
+.container .top .title {
+  margin-top: 65px;
+  width: 690px;
+}
+
+.container .top .title input {
+  font-size: 30px;
+  width: 100%;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #999999;
+  border-bottom: 1px solid #CBCBCB;
+  padding-bottom: 20px;
+}
+
+.container .top .tip_title {
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container .top .tips {
+  display: flex;
+  align-items: flex-start;
+  font-size: 22px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #4187eb;
+}
+
+.container .top .tips img {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.container .top .pic {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container .middle {
+  margin-top: 16px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.container .middle .header {
+  margin-bottom: 30px;
+}
+
+.container .middle .header .add {
+  color: #333333;
+  font-size: 28px;
+  font-family: MicrosoftYaHei;
+}
+
+.container .middle .header .info {
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  color: #C1C5CB;
+}
+
+.container .middle .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .middle .tags .tag {
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  margin-right: 16px;
+  padding: 14px 20px;
+  font-size: 28px;
+  font-family: Microsoft YaHei;
+  font-weight: 300;
+  color: #333333;
+}
+
+.container .middle .tags .tag span {
+  color: #27292D;
+}
+
+.container .middle .tags .tag.active {
+  background-color: #ffd300;
+  border: 0px;
+}
+
+.container .middle .input {
+  display: flex;
+  align-items: center;
+}
+
+.container .middle .input .sign {
+  position: absolute;
+  left: 52px;
+  color: #27292D;
+  border-radius: 1px;
+}
+
+.container .middle .input input {
+  flex: 1;
+  border: 1px solid #CBCBCB;
+  border-radius: 10px;
+  padding: 16px 0 16px 54px;
+}
+
+.container .footer {
+  margin-top: 16px;
+  margin-bottom: 60px;
+  background-color: #fff;
+}
+
+.container .footer .btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 60px;
+  padding: 0 72px;
+}
+
+.container .footer .btn .submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background: #ffd300;
+  border-radius: 45px;
+  font-size: 34px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #333333;
+  padding: 28px 0;
+}
+
+/deep/ .van-field__word-num {
+  color: #4187EB;
+}
+
+/deep/ .van-field__word-limit {
+  font-size: 30px;
+}
+
+/deep/ .van-cell::after {
+  border: none;
+}
+
+/deep/ .van-uploader__preview-image {
+  width: 120px;
+  height: 120px;
+}
+
+/deep/ .van-dialog__header {
+  padding-top: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 36px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #333333;
+}

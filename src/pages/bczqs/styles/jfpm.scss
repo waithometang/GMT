@@ -1,0 +1,35 @@
+.jfpm {
+  height: 100vh;
+  background-color: #f4f4f4;
+
+  .points-ranking {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+
+    .integral-head {
+      background-color: #f4f4f4;
+
+      .team {
+        padding-left: 15px;
+      }
+    }
+
+    .integral-list {
+      background-color: #fff;
+
+      .name {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        img {
+          width: 40px;
+          height: 40px;
+          padding-left: 20px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

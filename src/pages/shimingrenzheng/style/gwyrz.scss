@@ -1,0 +1,92 @@
+.gwyrz {
+  background:rgba(230,230,229,1);
+  .input_list {
+    background: #ffffff;
+    padding: 10px 30px;
+    .input_tab {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #cccccc;
+      .input_tab_name {
+        min-width: 130px;
+        margin-right: 20px;
+        flex: 0 0 auto;
+        font-size:30px;
+        font-weight:500;
+        color:rgba(119,120,120,1);
+      }
+      .input_tab_input {
+        flex: 1;
+        input {
+          height: 80px;
+          width: 100%;
+          text-align: right;
+        }
+        input::-webkit-input-placeholder {
+          text-align: right;
+        }
+      }
+      .input_tab_image {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 0;
+        img {
+          width:80px;
+          height:80px;
+          border-radius:50%;
+        }
+      }
+    }
+  }
+  .affirmInfo {
+    background: #ffffff;
+    padding: 20px 30px 40px 30px;
+    display: flex;
+    align-items: center;
+    .affirmInfo_icon {
+      flex: 0 0 auto;
+      width:34px;
+      height:34px;
+      img {
+        width:34px;
+        height:34px;
+      }
+    }
+    .affirmInfo_name {
+      flex: 1;
+      text-align: right;
+      font-size:30px;
+      font-weight:500;
+      color:rgba(40,40,40,1);
+    }
+  }
+  .content {
+    margin-top: 20px;
+    padding: 30px;
+    background: #ffffff;
+    .content_state {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size:30px;
+      font-weight:500;
+      color:rgba(14,13,13,1)
+    }
+    .state_info {
+      margin-top: 60px;
+      font-size:24px;
+      font-family:PingFang SC;
+      font-weight:400;
+      color:rgba(150,150,150,1);
+    }
+  }
+  .but {
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    // padding-bottom: 185px;
+    background: #ffffff;
+  }
+}

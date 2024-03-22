@@ -1,0 +1,39 @@
+.dbzs {
+  .select {
+    height: 60px;
+  }
+
+  // .need-list{
+  //   height: 50px;
+  // }
+  .bd-line {
+    height: 13px;
+    background: #F5F5F5;
+  }
+
+  /deep/ .van-dropdown-menu__item {
+    margin: 0 30px;
+    height: 64px;
+    background: #F5F5F5;
+    border-radius: 32px;
+  }
+
+  /deep/ .van-dropdown-menu__title {
+    width: 90%;
+    // background: #000;
+    text-align: left;
+
+    &::after {
+      right: 10px;
+    }
+  }
+
+  /deep/ .van-dropdown-menu__bar {
+    align-items: center;
+    box-shadow: none;
+  }
+
+  /deep/ .van-ellipsis {
+    text-align: center;
+  }
+}

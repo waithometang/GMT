@@ -1,0 +1,51 @@
+.yqbbsm{
+    text-align: center;
+    height:100%;
+    padding-top: 79px;
+    background-color: #1165b8;
+    .title{
+        margin: 0px 93px;
+        margin-bottom: 79px;
+        img{
+            width:100%;
+        }
+    }
+    .nr{
+        margin: 0px 31px;
+        padding: 10px 31px;
+        background-color: #1a72c7;
+        border: 1px solid #1a72c7;
+        border-radius: 10px;
+        min-height: 890px;
+        color:#a2d4f6;
+        .title1{
+            p{
+                font-size: 32px;
+                font-weight: 600;
+                text-align:center;
+            }
+        }
+        .nr1{
+            font-size: 28px;
+            p{
+                text-indent:2em;
+                text-align: left;
+            }
+        }
+    }
+    .btdiv{
+        padding:50px 30px;
+        .bt{
+            font-size: 39.62px;
+            color: #1a72c7;
+            padding-top: 22px;
+            height: 80px;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            :active{
+                background-color: #1a72c7;
+            }
+        }
+    }
+}

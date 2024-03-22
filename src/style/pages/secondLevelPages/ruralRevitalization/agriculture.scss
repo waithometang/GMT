@@ -1,0 +1,129 @@
+.agriculture{
+  background: #f2f9f2;
+  .tag {
+    height: auto;
+    padding:0 20px; 
+    background: #ffffff;
+    overflow: hidden;
+    .tag_ul {
+      background: #ffffff;
+      overflow: hidden;
+      .tag_li {
+        min-height:60px;
+        width: 20%;
+        margin: 0 15px;
+        float: left;
+        background: #EBEFF2;
+        border-radius: 30px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        color: #1F2326;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .tag_li:active{
+        background: #cccccc;
+      }
+      .action {
+        background: #379dea;
+        color: white;
+      }
+    }
+  }
+  .lists {
+    position: absolute;
+    min-height: 800px;
+    width: 100%;
+    bottom: 0px;
+    top: 270px;
+    .list {
+      margin: 0 20px;
+      padding: 10px 0;
+      display: flex;
+      align-items: flex-start;
+      border-bottom: 1px dotted  #cccccc;
+      .list-left {
+        flex: 1;
+        .list-title {
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+          font-size: 30px;
+          color: rgba(0,0,0,1);
+          min-height: 85px;
+          line-height: 40px;
+          span{
+            padding: 5px 10px;
+            display: inline-block;
+            background:rgba(253,233,218,1);
+            border-radius:10px;
+            color: rgba(255,143,3,1);
+          }
+        }
+        .list-icon {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          .list-icon-li {
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            flex: 1;
+            .icon{
+              width:26px;
+              height:26px;
+              flex: 0 0 26px;
+              margin-right: 5px;
+              border-radius:50%;
+              display: flex;
+              align-items: center;
+              img{
+                width:26px;
+                height:26px;
+                border-radius:50%;
+              }
+            }
+            .name{
+              font-size: 26px;
+              color: rgba(153,153,153,1);
+              text-align: left;
+            }                   
+          }
+          .time{
+            flex: 0 0 auto;
+            justify-content:flex-end;
+          }
+        }
+        .list-icon-lb {
+          flex: 1;
+          font-size: 26px;
+          color: rgba(153,153,153,1);
+          text-align: left;
+        }
+        .not-images {
+          margin-right: 174px;
+        }
+      }
+      .list-right{
+        width:180px;
+        height:140px;
+        padding-left: 10px;
+        flex: 0 0 174px;
+        display: flex;
+        align-items: center;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .lists-action {
+    top: 306px;
+  }
+}
